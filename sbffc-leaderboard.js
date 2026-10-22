@@ -6,7 +6,7 @@
  *   data-prize-places="21"            championship places paid (draws the money line)
  *   data-view="championship"          initial view: championship|divisions|consolation|toilet|weekly
  *   data-hash="true"                  keep view/filters in the URL hash (standalone page)
- * Reads leaderboard.json schema 2.x (see SCHEMA.md). */
+ * Reads leaderboard.json schema 2.x (see SCHEMA.md); wild-card pool details need 2.1+. */
 (function () {
   "use strict";
   var VIEWS = [
@@ -23,6 +23,24 @@
     });
   }
   function fmt(n) { return n == null ? '<span class="pending">\u2014</span>' : Number(n).toFixed(2); }
+  /* wild-card summary: top-15% pool minus teams already qualified through their division */
+  function wcInfo(d) {
+    var w = d.wildcards;
+    if (!w) return { short: d.counts.wildcards + " wild cards", long: "", projected: false };
+    var proj = w.status !== "final";
+    var cut = w.cutoff_points != null ? " (cutoff " + Number(w.cutoff_points).toFixed(2) + " pts)" : "";
+    var n = w.count + " wild card" + (w.count === 1 ? "" : "s");
+    return {
+      projected: proj,
+      short: proj ? n + " projected · final count TBD" : n,
+      long: "<b>Wild cards" + (proj ? " (projected)" : "") + ":</b> the top " + w.pool_size + " of " + d.counts.teams +
+        " teams (" + Math.round(w.pct * 100) + "%) in total points through Week " + w.through_week + cut + " make the wild-card pool. " +
+        w.pool_division_qualifiers + " of them already qualified through their division, so " +
+        (proj ? "<b>" + n + " projected</b>. Final count TBD after Week " + w.final_after_week + "."
+              : "<b>" + n + "</b> (final).") +
+        (w.tie_at_cutoff ? " Points tie at the cutoff — awaiting commissioner ruling." : "")
+    };
+  }
   function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
 
   function Widget(el) {
@@ -83,6 +101,7 @@
     var phase = !asOf ? "Preseason" : asOf <= d.rules.reg_end ? "Regular season" :
       asOf <= d.rules.div_playoff_weeks[1] ? "Division playoffs" : asOf < cw[cw.length - 1] ? "Championship round" : "Season complete";
     var divs = d.divisions.map(function (x) { return x.name; });
+    var wci = wcInfo(d);
     var finalNote = d.final_through_week ? " Weeks 1\u2013" + d.final_through_week + " are final." : "";
     var html =
       (d.is_sample ? '<div class="lb-sample">Sample data \u2014 invented teams for preview only. Not real SBFFC results.</div>' : "") +
@@ -93,7 +112,10 @@
       '<div class="lb-stats">' +
       '<span class="lb-stat"><b>' + d.counts.teams + "</b>teams</span>" +
       '<span class="lb-stat"><b>' + d.counts.divisions + "</b>divisions</span>" +
-      '<span class="lb-stat"><b>' + d.counts.championship + "</b>in championship (" + d.counts.wildcards + " wild cards)</span>" +
+      '<span class="lb-stat"><b>' + d.counts.championship + "</b>in championship" + (wci.projected ? " (projected)" : "") + "</span>" +
+      '<span class="lb-stat"><b>' + (d.wildcards ? d.wildcards.count : d.counts.wildcards) + "</b>" +
+      (d.wildcards ? (wci.projected ? "wild cards projected · final count TBD" : "wild cards") +
+        " (top-15% pool: " + d.wildcards.pool_size + ")" : "wild cards") + "</span>" +
       '<span class="lb-stat"><b>' + d.counts.consolation + "</b>consolation</span>" +
       '<span class="lb-stat"><b>' + d.counts.toilet_bowl + "</b>toilet bowl</span></div>" +
       '<div class="lb-tabs" role="tablist">' + VIEWS.map(function (v) {
@@ -191,7 +213,8 @@
     var q = QUAL[r.qual_type]; if (!q) return "";
     var t = this.data.teams[r.team_key];
     var label = r.qual_type === "division_seed" && t.seed ? "Seed " + t.seed : q[1];
-    return '<span class="badge ' + q[0] + '">' + label + "</span>";
+    var proj = r.qual_type === "wild_card" && r.qual_status === "projected";
+    return '<span class="badge ' + q[0] + '"' + (proj ? ' title="Projected until the regular season is final"' : "") + ">" + label + (proj ? " (proj.)" : "") + "</span>";
   };
   function mv(m) {
     if (m == null) return '<span class="mv same">\u2014</span>';
@@ -221,12 +244,14 @@
     });
     cols.push({ k: "total", label: "Total", num: true, cls: "total sticky-r", sort: function (r) { return r.total; }, cell: function (r) { return fmt(r.total); } });
     var prize = this.prize;
-    var html = this.table("champ", cols, rows, { k: "rank", dir: "asc" }, function (r) {
+    var wci = wcInfo(d);
+    var html = (wci.long ? '<p class="lb-legend lb-wcinfo" style="padding-top:0;padding-bottom:10px"><span>' + wci.long + "</span></p>" : "") +
+      this.table("champ", cols, rows, { k: "rank", dir: "asc" }, function (r) {
       return (r.rank === 1 ? "top1 " : "") + (r.rank <= prize ? "money " : "") + (r.rank === prize ? "cutline" : "");
     });
     html += '<div class="lb-legend"><span><i style="background:#c00202"></i>Top ' + prize + ' paid places</span>' +
       '<span><span class="badge seed">Seed</span> division playoff team</span><span><span class="badge fifth">5th team</span> tied best division record</span>' +
-      '<span><span class="badge wc">Wild card</span> top 15% in points</span><span>\u25B2\u25BC change since previous week</span></div>';
+      '<span><span class="badge wc">Wild card</span> top 15% in points, not a division qualifier</span><span>\u25B2\u25BC change since previous week</span></div>';
     return { html: html, count: rows.length + " of " + d.championship.standings.length + " teams" };
   };
 
@@ -274,7 +299,7 @@
       var rows = dv.standings.map(function (k, i) {
         var t = T[k], hit = s.q && self.match(k);
         return '<tr class="' + (t.seed ? "is-seed" : "") + '"' + (hit ? ' style="outline:2px solid #ffb400;outline-offset:-2px"' : "") + "><td>" + (i + 1) + "</td><td>" + self.teamCell(k) + "</td>" +
-          "<td>" + (t.seed ? '<span class="badge seed">' + t.seed + "</span>" : t.qual_type === "fifth_team" ? '<span class="badge fifth">5th</span>' : t.qual_type === "wild_card" ? '<span class="badge wc">WC</span>' : "") +
+          "<td>" + (t.seed ? '<span class="badge seed">' + t.seed + "</span>" : t.qual_type === "fifth_team" ? '<span class="badge fifth">5th</span>' : t.qual_type === "wild_card" ? '<span class="badge wc"' + (d.wildcards && d.wildcards.status !== "final" ? ' title="Projected wild card">WC?' : ">WC") + "</span>" : "") +
           '</td><td class="num">' + esc(t.record_str) + '</td><td class="num">' + fmt(t.reg_pts) + "</td></tr>";
       }).join("");
       var br = "";

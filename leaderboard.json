@@ -1,9 +1,9 @@
 {
- "schema_version": "2.0",
+ "schema_version": "2.1",
  "is_sample": true,
  "title": "SBFFC Championship",
  "season": "2026",
- "generated_at": "2026-10-21T21:40:34-04:00",
+ "generated_at": "2026-10-22T15:43:26-04:00",
  "as_of_week": 16,
  "final_through_week": null,
  "status_note": "Scores are unofficial until NFL stat corrections are final (typically by Thursday).",
@@ -28,13 +28,78 @@
   ],
   "wildcard_pct": 0.15
  },
+ "wildcards": {
+  "pct": 0.15,
+  "pool_size": 41,
+  "count": 5,
+  "pool_division_qualifiers": 36,
+  "cutoff_points": 1559.36,
+  "first_out_points": 1559.36,
+  "tie_at_cutoff": false,
+  "backfill": false,
+  "pool": [
+   "sample15:12",
+   "sample09:4",
+   "sample20:11",
+   "sample11:6",
+   "sample04:9",
+   "sample06:10",
+   "sample07:5",
+   "sample13:2",
+   "sample20:12",
+   "sample15:8",
+   "sample23:4",
+   "sample21:5",
+   "sample10:5",
+   "sample02:9",
+   "sample22:12",
+   "sample14:6",
+   "sample02:4",
+   "sample18:9",
+   "sample15:5",
+   "sample19:5",
+   "sample12:5",
+   "sample12:9",
+   "sample16:3",
+   "sample23:7",
+   "sample05:12",
+   "sample05:6",
+   "sample23:1",
+   "sample08:5",
+   "sample13:12",
+   "sample02:10",
+   "sample15:7",
+   "sample08:7",
+   "sample01:2",
+   "sample10:7",
+   "sample12:2",
+   "sample08:9",
+   "sample18:10",
+   "sample15:9",
+   "sample15:1",
+   "sample08:12",
+   "sample16:9"
+  ],
+  "wild_cards": [
+   "sample23:1",
+   "sample18:10",
+   "sample15:9",
+   "sample15:1",
+   "sample08:12"
+  ],
+  "status": "final",
+  "final_after_week": 12,
+  "through_week": 12
+ },
  "counts": {
   "teams": 276,
   "divisions": 23,
-  "wildcards": 41,
-  "championship": 134,
-  "consolation": 48,
-  "toilet_bowl": 94
+  "wildcards": 5,
+  "wildcards_status": "final",
+  "wildcard_pool": 41,
+  "championship": 98,
+  "consolation": 72,
+  "toilet_bowl": 106
  },
  "teams": {
   "sample01:1": {
@@ -55,6 +120,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 124.58,
+   "points_rank": 141,
+   "in_wc_pool": false,
    "weekly": {
     "1": 142.77,
     "2": 89.42,
@@ -94,6 +161,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 130.08,
+   "points_rank": 33,
+   "in_wc_pool": true,
    "weekly": {
     "1": 140.86,
     "2": 150.79,
@@ -133,6 +202,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 92.65,
+   "points_rank": 266,
+   "in_wc_pool": false,
    "weekly": {
     "1": 117.35,
     "2": 64.82,
@@ -172,6 +243,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 106.42,
+   "points_rank": 226,
+   "in_wc_pool": false,
    "weekly": {
     "1": 70.93,
     "2": 111.49,
@@ -211,6 +284,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 112.32,
+   "points_rank": 203,
+   "in_wc_pool": false,
    "weekly": {
     "1": 60.4,
     "2": 154.3,
@@ -250,6 +325,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 110.43,
+   "points_rank": 236,
+   "in_wc_pool": false,
    "weekly": {
     "1": 78.58,
     "2": 129.02,
@@ -289,6 +366,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 110.39,
+   "points_rank": 231,
+   "in_wc_pool": false,
    "weekly": {
     "1": 105.23,
     "2": 98.84,
@@ -328,6 +407,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 118.02,
+   "points_rank": 134,
+   "in_wc_pool": false,
    "weekly": {
     "1": 84.52,
     "2": 150.08,
@@ -367,6 +448,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 113.02,
+   "points_rank": 190,
+   "in_wc_pool": false,
    "weekly": {
     "1": 113.22,
     "2": 95.47,
@@ -406,6 +489,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 103.51,
+   "points_rank": 252,
+   "in_wc_pool": false,
    "weekly": {
     "1": 89.85,
     "2": 101.71,
@@ -445,6 +530,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 108.18,
+   "points_rank": 243,
+   "in_wc_pool": false,
    "weekly": {
     "1": 70.54,
     "2": 60.12,
@@ -484,6 +571,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 95.28,
+   "points_rank": 261,
+   "in_wc_pool": false,
    "weekly": {
     "1": 84.01,
     "2": 84.04,
@@ -523,6 +612,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 113.0,
+   "points_rank": 176,
+   "in_wc_pool": false,
    "weekly": {
     "1": 113.25,
     "2": 67.51,
@@ -559,9 +650,11 @@
    "reg_pts": 1436.89,
    "div_rank": 10,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 120.2,
+   "points_rank": 121,
+   "in_wc_pool": false,
    "weekly": {
     "1": 115.79,
     "2": 111.83,
@@ -601,6 +694,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 107.9,
+   "points_rank": 224,
+   "in_wc_pool": false,
    "weekly": {
     "1": 123.3,
     "2": 125.4,
@@ -640,6 +735,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 135.26,
+   "points_rank": 17,
+   "in_wc_pool": true,
    "weekly": {
     "1": 207.8,
     "2": 100.94,
@@ -679,6 +776,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 117.8,
+   "points_rank": 166,
+   "in_wc_pool": false,
    "weekly": {
     "1": 121.85,
     "2": 93.77,
@@ -718,6 +817,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 111.71,
+   "points_rank": 186,
+   "in_wc_pool": false,
    "weekly": {
     "1": 143.0,
     "2": 116.95,
@@ -757,6 +858,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 123.04,
+   "points_rank": 76,
+   "in_wc_pool": false,
    "weekly": {
     "1": 120.12,
     "2": 118.61,
@@ -793,9 +896,11 @@
    "reg_pts": 1504.84,
    "div_rank": 8,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 125.64,
+   "points_rank": 69,
+   "in_wc_pool": false,
    "weekly": {
     "1": 139.5,
     "2": 93.69,
@@ -835,6 +940,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 134.5,
+   "points_rank": 14,
+   "in_wc_pool": true,
    "weekly": {
     "1": 165.58,
     "2": 166.18,
@@ -874,6 +981,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 135.07,
+   "points_rank": 30,
+   "in_wc_pool": true,
    "weekly": {
     "1": 121.88,
     "2": 143.88,
@@ -910,9 +1019,11 @@
    "reg_pts": 1462.86,
    "div_rank": 9,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 119.26,
+   "points_rank": 102,
+   "in_wc_pool": false,
    "weekly": {
     "1": 119.17,
     "2": 145.55,
@@ -949,9 +1060,11 @@
    "reg_pts": 1480.13,
    "div_rank": 5,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 123.42,
+   "points_rank": 90,
+   "in_wc_pool": false,
    "weekly": {
     "1": 147.72,
     "2": 86.91,
@@ -991,6 +1104,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 115.69,
+   "points_rank": 140,
+   "in_wc_pool": false,
    "weekly": {
     "1": 124.33,
     "2": 97.26,
@@ -1030,6 +1145,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 122.33,
+   "points_rank": 91,
+   "in_wc_pool": false,
    "weekly": {
     "1": 117.38,
     "2": 145.55,
@@ -1069,6 +1186,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 112.73,
+   "points_rank": 129,
+   "in_wc_pool": false,
    "weekly": {
     "1": 93.85,
     "2": 107.69,
@@ -1108,6 +1227,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 102.37,
+   "points_rank": 258,
+   "in_wc_pool": false,
    "weekly": {
     "1": 96.67,
     "2": 96.21,
@@ -1147,6 +1268,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 109.8,
+   "points_rank": 217,
+   "in_wc_pool": false,
    "weekly": {
     "1": 168.32,
     "2": 91.14,
@@ -1186,6 +1309,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 99.06,
+   "points_rank": 265,
+   "in_wc_pool": false,
    "weekly": {
     "1": 135.69,
     "2": 106.51,
@@ -1225,6 +1350,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 124.08,
+   "points_rank": 77,
+   "in_wc_pool": false,
    "weekly": {
     "1": 134.65,
     "2": 160.76,
@@ -1264,6 +1391,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 96.87,
+   "points_rank": 269,
+   "in_wc_pool": false,
    "weekly": {
     "1": 115.18,
     "2": 106.7,
@@ -1303,6 +1432,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 108.94,
+   "points_rank": 223,
+   "in_wc_pool": false,
    "weekly": {
     "1": 101.78,
     "2": 133.57,
@@ -1342,6 +1473,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 114.27,
+   "points_rank": 211,
+   "in_wc_pool": false,
    "weekly": {
     "1": 131.53,
     "2": 98.19,
@@ -1381,6 +1514,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 122.29,
+   "points_rank": 126,
+   "in_wc_pool": false,
    "weekly": {
     "1": 106.43,
     "2": 106.7,
@@ -1420,6 +1555,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 118.15,
+   "points_rank": 92,
+   "in_wc_pool": false,
    "weekly": {
     "1": 150.01,
     "2": 113.99,
@@ -1459,6 +1596,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 109.71,
+   "points_rank": 170,
+   "in_wc_pool": false,
    "weekly": {
     "1": 118.08,
     "2": 128.31,
@@ -1498,6 +1637,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 114.22,
+   "points_rank": 171,
+   "in_wc_pool": false,
    "weekly": {
     "1": 97.07,
     "2": 125.14,
@@ -1537,6 +1678,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 118.23,
+   "points_rank": 131,
+   "in_wc_pool": false,
    "weekly": {
     "1": 127.01,
     "2": 134.9,
@@ -1576,6 +1719,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 120.54,
+   "points_rank": 149,
+   "in_wc_pool": false,
    "weekly": {
     "1": 89.59,
     "2": 157.92,
@@ -1612,9 +1757,11 @@
    "reg_pts": 1467.6,
    "div_rank": 8,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 125.66,
+   "points_rank": 97,
+   "in_wc_pool": false,
    "weekly": {
     "1": 124.72,
     "2": 122.96,
@@ -1651,9 +1798,11 @@
    "reg_pts": 1501.32,
    "div_rank": 6,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 125.93,
+   "points_rank": 73,
+   "in_wc_pool": false,
    "weekly": {
     "1": 96.45,
     "2": 108.46,
@@ -1693,6 +1842,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 125.1,
+   "points_rank": 81,
+   "in_wc_pool": false,
    "weekly": {
     "1": 110.17,
     "2": 132.2,
@@ -1732,6 +1883,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 119.43,
+   "points_rank": 136,
+   "in_wc_pool": false,
    "weekly": {
     "1": 86.72,
     "2": 133.17,
@@ -1771,6 +1924,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 147.02,
+   "points_rank": 5,
+   "in_wc_pool": true,
    "weekly": {
     "1": 135.07,
     "2": 153.57,
@@ -1810,6 +1965,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 117.61,
+   "points_rank": 160,
+   "in_wc_pool": false,
    "weekly": {
     "1": 114.26,
     "2": 122.19,
@@ -1849,6 +2006,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 114.41,
+   "points_rank": 204,
+   "in_wc_pool": false,
    "weekly": {
     "1": 107.34,
     "2": 94.77,
@@ -1888,6 +2047,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 108.3,
+   "points_rank": 233,
+   "in_wc_pool": false,
    "weekly": {
     "1": 59.45,
     "2": 66.72,
@@ -1927,6 +2088,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 108.47,
+   "points_rank": 195,
+   "in_wc_pool": false,
    "weekly": {
     "1": 111.05,
     "2": 170.56,
@@ -1966,6 +2129,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 119.79,
+   "points_rank": 124,
+   "in_wc_pool": false,
    "weekly": {
     "1": 137.25,
     "2": 124.03,
@@ -2002,9 +2167,11 @@
    "reg_pts": 1504.62,
    "div_rank": 7,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 127.87,
+   "points_rank": 70,
+   "in_wc_pool": false,
    "weekly": {
     "1": 97.98,
     "2": 133.98,
@@ -2044,6 +2211,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 104.92,
+   "points_rank": 234,
+   "in_wc_pool": false,
    "weekly": {
     "1": 96.89,
     "2": 97.27,
@@ -2083,6 +2252,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 98.53,
+   "points_rank": 253,
+   "in_wc_pool": false,
    "weekly": {
     "1": 94.15,
     "2": 127.8,
@@ -2122,6 +2293,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 134.62,
+   "points_rank": 26,
+   "in_wc_pool": true,
    "weekly": {
     "1": 93.98,
     "2": 165.35,
@@ -2161,6 +2334,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 112.79,
+   "points_rank": 154,
+   "in_wc_pool": false,
    "weekly": {
     "1": 128.01,
     "2": 128.34,
@@ -2200,6 +2375,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 109.52,
+   "points_rank": 235,
+   "in_wc_pool": false,
    "weekly": {
     "1": 118.23,
     "2": 105.63,
@@ -2239,6 +2416,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 119.45,
+   "points_rank": 101,
+   "in_wc_pool": false,
    "weekly": {
     "1": 122.03,
     "2": 105.8,
@@ -2278,6 +2457,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 112.98,
+   "points_rank": 212,
+   "in_wc_pool": false,
    "weekly": {
     "1": 109.65,
     "2": 115.52,
@@ -2317,6 +2498,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 89.62,
+   "points_rank": 271,
+   "in_wc_pool": false,
    "weekly": {
     "1": 59.13,
     "2": 79.4,
@@ -2356,6 +2539,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 128.37,
+   "points_rank": 25,
+   "in_wc_pool": true,
    "weekly": {
     "1": 136.98,
     "2": 179.96,
@@ -2395,6 +2580,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 115.05,
+   "points_rank": 199,
+   "in_wc_pool": false,
    "weekly": {
     "1": 100.01,
     "2": 129.08,
@@ -2434,6 +2621,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 115.29,
+   "points_rank": 181,
+   "in_wc_pool": false,
    "weekly": {
     "1": 113.76,
     "2": 91.51,
@@ -2473,6 +2662,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 117.92,
+   "points_rank": 117,
+   "in_wc_pool": false,
    "weekly": {
     "1": 136.51,
     "2": 128.12,
@@ -2512,6 +2703,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 99.2,
+   "points_rank": 256,
+   "in_wc_pool": false,
    "weekly": {
     "1": 60.37,
     "2": 99.63,
@@ -2551,6 +2744,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 98.23,
+   "points_rank": 262,
+   "in_wc_pool": false,
    "weekly": {
     "1": 95.37,
     "2": 130.55,
@@ -2590,6 +2785,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 124.49,
+   "points_rank": 64,
+   "in_wc_pool": false,
    "weekly": {
     "1": 92.83,
     "2": 70.21,
@@ -2629,6 +2826,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 104.88,
+   "points_rank": 232,
+   "in_wc_pool": false,
    "weekly": {
     "1": 67.9,
     "2": 130.31,
@@ -2668,6 +2867,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 110.36,
+   "points_rank": 222,
+   "in_wc_pool": false,
    "weekly": {
     "1": 102.91,
     "2": 83.38,
@@ -2707,6 +2908,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 108.62,
+   "points_rank": 206,
+   "in_wc_pool": false,
    "weekly": {
     "1": 113.91,
     "2": 78.12,
@@ -2746,6 +2949,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 144.77,
+   "points_rank": 6,
+   "in_wc_pool": true,
    "weekly": {
     "1": 116.4,
     "2": 114.25,
@@ -2785,6 +2990,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 85.63,
+   "points_rank": 276,
+   "in_wc_pool": false,
    "weekly": {
     "1": 86.87,
     "2": 81.69,
@@ -2824,6 +3031,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 117.32,
+   "points_rank": 139,
+   "in_wc_pool": false,
    "weekly": {
     "1": 84.89,
     "2": 166.19,
@@ -2863,6 +3072,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 112.54,
+   "points_rank": 172,
+   "in_wc_pool": false,
    "weekly": {
     "1": 119.07,
     "2": 126.96,
@@ -2902,6 +3113,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 115.77,
+   "points_rank": 162,
+   "in_wc_pool": false,
    "weekly": {
     "1": 159.1,
     "2": 87.72,
@@ -2938,9 +3151,11 @@
    "reg_pts": 1481.78,
    "div_rank": 8,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 125.71,
+   "points_rank": 86,
+   "in_wc_pool": false,
    "weekly": {
     "1": 126.93,
     "2": 157.66,
@@ -2980,6 +3195,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 125.5,
+   "points_rank": 60,
+   "in_wc_pool": false,
    "weekly": {
     "1": 84.74,
     "2": 183.45,
@@ -3019,6 +3236,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 141.7,
+   "points_rank": 7,
+   "in_wc_pool": true,
    "weekly": {
     "1": 169.39,
     "2": 144.77,
@@ -3055,9 +3274,11 @@
    "reg_pts": 1473.52,
    "div_rank": 6,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 125.18,
+   "points_rank": 93,
+   "in_wc_pool": false,
    "weekly": {
     "1": 113.09,
     "2": 110.04,
@@ -3097,6 +3318,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 122.06,
+   "points_rank": 95,
+   "in_wc_pool": false,
    "weekly": {
     "1": 153.35,
     "2": 139.52,
@@ -3133,9 +3356,11 @@
    "reg_pts": 1540.97,
    "div_rank": 5,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 128.3,
+   "points_rank": 52,
+   "in_wc_pool": false,
    "weekly": {
     "1": 113.36,
     "2": 95.21,
@@ -3175,6 +3400,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 128.61,
+   "points_rank": 45,
+   "in_wc_pool": false,
    "weekly": {
     "1": 123.87,
     "2": 140.38,
@@ -3214,6 +3441,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 84.49,
+   "points_rank": 275,
+   "in_wc_pool": false,
    "weekly": {
     "1": 80.63,
     "2": 82.42,
@@ -3253,6 +3482,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 109.09,
+   "points_rank": 239,
+   "in_wc_pool": false,
    "weekly": {
     "1": 114.32,
     "2": 132.95,
@@ -3292,6 +3523,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 112.36,
+   "points_rank": 191,
+   "in_wc_pool": false,
    "weekly": {
     "1": 85.24,
     "2": 117.58,
@@ -3331,6 +3564,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 118.69,
+   "points_rank": 114,
+   "in_wc_pool": false,
    "weekly": {
     "1": 114.25,
     "2": 147.58,
@@ -3370,6 +3605,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 103.3,
+   "points_rank": 244,
+   "in_wc_pool": false,
    "weekly": {
     "1": 118.66,
     "2": 78.19,
@@ -3409,6 +3646,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 118.18,
+   "points_rank": 132,
+   "in_wc_pool": false,
    "weekly": {
     "1": 149.39,
     "2": 108.82,
@@ -3445,9 +3684,11 @@
    "reg_pts": 1515.96,
    "div_rank": 5,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 127.54,
+   "points_rank": 63,
+   "in_wc_pool": false,
    "weekly": {
     "1": 127.92,
     "2": 77.77,
@@ -3487,6 +3728,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 134.36,
+   "points_rank": 28,
+   "in_wc_pool": true,
    "weekly": {
     "1": 167.73,
     "2": 148.57,
@@ -3526,6 +3769,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 110.77,
+   "points_rank": 230,
+   "in_wc_pool": false,
    "weekly": {
     "1": 81.69,
     "2": 120.74,
@@ -3565,6 +3810,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 127.93,
+   "points_rank": 32,
+   "in_wc_pool": true,
    "weekly": {
     "1": 140.62,
     "2": 170.98,
@@ -3604,6 +3851,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 104.42,
+   "points_rank": 241,
+   "in_wc_pool": false,
    "weekly": {
     "1": 129.34,
     "2": 139.81,
@@ -3643,6 +3892,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 131.85,
+   "points_rank": 36,
+   "in_wc_pool": true,
    "weekly": {
     "1": 112.44,
     "2": 160.94,
@@ -3684,6 +3935,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 113.41,
+   "points_rank": 174,
+   "in_wc_pool": false,
    "weekly": {
     "1": 152.53,
     "2": 117.72,
@@ -3723,6 +3976,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 110.64,
+   "points_rank": 185,
+   "in_wc_pool": false,
    "weekly": {
     "1": 137.77,
     "2": 178.9,
@@ -3762,6 +4017,8 @@
    "qual_type": "wild_card",
    "bracket": "championship",
    "carry_avg": 125.28,
+   "points_rank": 40,
+   "in_wc_pool": true,
    "weekly": {
     "1": 124.15,
     "2": 119.28,
@@ -3801,6 +4058,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 121.67,
+   "points_rank": 142,
+   "in_wc_pool": false,
    "weekly": {
     "1": 132.7,
     "2": 100.72,
@@ -3840,6 +4099,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 121.34,
+   "points_rank": 108,
+   "in_wc_pool": false,
    "weekly": {
     "1": 130.58,
     "2": 149.35,
@@ -3879,6 +4140,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 116.48,
+   "points_rank": 148,
+   "in_wc_pool": false,
    "weekly": {
     "1": 159.45,
     "2": 126.06,
@@ -3918,6 +4181,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 150.71,
+   "points_rank": 2,
+   "in_wc_pool": true,
    "weekly": {
     "1": 127.43,
     "2": 167.34,
@@ -3957,6 +4222,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 91.11,
+   "points_rank": 272,
+   "in_wc_pool": false,
    "weekly": {
     "1": 102.08,
     "2": 93.43,
@@ -3993,9 +4260,11 @@
    "reg_pts": 1511.03,
    "div_rank": 5,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 124.83,
+   "points_rank": 66,
+   "in_wc_pool": false,
    "weekly": {
     "1": 123.77,
     "2": 76.73,
@@ -4035,6 +4304,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 125.28,
+   "points_rank": 88,
+   "in_wc_pool": false,
    "weekly": {
     "1": 165.23,
     "2": 110.55,
@@ -4074,6 +4345,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 104.03,
+   "points_rank": 246,
+   "in_wc_pool": false,
    "weekly": {
     "1": 105.21,
     "2": 85.64,
@@ -4113,6 +4386,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 116.06,
+   "points_rank": 158,
+   "in_wc_pool": false,
    "weekly": {
     "1": 104.75,
     "2": 128.17,
@@ -4149,9 +4424,11 @@
    "reg_pts": 1459.85,
    "div_rank": 9,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 124.14,
+   "points_rank": 104,
+   "in_wc_pool": false,
    "weekly": {
     "1": 114.35,
     "2": 119.24,
@@ -4191,6 +4468,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 124.88,
+   "points_rank": 133,
+   "in_wc_pool": false,
    "weekly": {
     "1": 114.46,
     "2": 104.22,
@@ -4230,6 +4509,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 117.15,
+   "points_rank": 152,
+   "in_wc_pool": false,
    "weekly": {
     "1": 111.53,
     "2": 80.11,
@@ -4269,6 +4550,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 111.98,
+   "points_rank": 188,
+   "in_wc_pool": false,
    "weekly": {
     "1": 108.55,
     "2": 106.06,
@@ -4308,6 +4591,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 113.29,
+   "points_rank": 220,
+   "in_wc_pool": false,
    "weekly": {
     "1": 72.04,
     "2": 91.11,
@@ -4347,6 +4632,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 112.22,
+   "points_rank": 178,
+   "in_wc_pool": false,
    "weekly": {
     "1": 116.48,
     "2": 91.3,
@@ -4386,6 +4673,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 127.46,
+   "points_rank": 72,
+   "in_wc_pool": false,
    "weekly": {
     "1": 123.76,
     "2": 138.36,
@@ -4425,6 +4714,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 136.93,
+   "points_rank": 13,
+   "in_wc_pool": true,
    "weekly": {
     "1": 175.16,
     "2": 150.63,
@@ -4464,6 +4755,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 90.32,
+   "points_rank": 274,
+   "in_wc_pool": false,
    "weekly": {
     "1": 59.57,
     "2": 90.72,
@@ -4503,6 +4796,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 132.16,
+   "points_rank": 34,
+   "in_wc_pool": true,
    "weekly": {
     "1": 91.52,
     "2": 133.07,
@@ -4542,6 +4837,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 115.86,
+   "points_rank": 167,
+   "in_wc_pool": false,
    "weekly": {
     "1": 121.31,
     "2": 86.88,
@@ -4578,9 +4875,11 @@
    "reg_pts": 1457.27,
    "div_rank": 7,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 125.58,
+   "points_rank": 105,
+   "in_wc_pool": false,
    "weekly": {
     "1": 130.72,
     "2": 115.21,
@@ -4620,6 +4919,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 112.85,
+   "points_rank": 219,
+   "in_wc_pool": false,
    "weekly": {
     "1": 137.0,
     "2": 116.82,
@@ -4659,6 +4960,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 127.15,
+   "points_rank": 84,
+   "in_wc_pool": false,
    "weekly": {
     "1": 119.38,
     "2": 113.99,
@@ -4698,6 +5001,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 111.05,
+   "points_rank": 184,
+   "in_wc_pool": false,
    "weekly": {
     "1": 158.64,
     "2": 104.22,
@@ -4737,6 +5042,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 116.63,
+   "points_rank": 145,
+   "in_wc_pool": false,
    "weekly": {
     "1": 133.42,
     "2": 96.59,
@@ -4776,6 +5083,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 118.46,
+   "points_rank": 150,
+   "in_wc_pool": false,
    "weekly": {
     "1": 107.95,
     "2": 85.64,
@@ -4815,6 +5124,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 98.8,
+   "points_rank": 264,
+   "in_wc_pool": false,
    "weekly": {
     "1": 83.53,
     "2": 112.51,
@@ -4851,9 +5162,11 @@
    "reg_pts": 1444.19,
    "div_rank": 6,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 118.92,
+   "points_rank": 116,
+   "in_wc_pool": false,
    "weekly": {
     "1": 147.82,
     "2": 96.2,
@@ -4893,6 +5206,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 114.17,
+   "points_rank": 198,
+   "in_wc_pool": false,
    "weekly": {
     "1": 80.45,
     "2": 134.63,
@@ -4932,6 +5247,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 139.54,
+   "points_rank": 4,
+   "in_wc_pool": true,
    "weekly": {
     "1": 164.81,
     "2": 171.55,
@@ -4971,6 +5288,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 125.6,
+   "points_rank": 62,
+   "in_wc_pool": false,
    "weekly": {
     "1": 112.15,
     "2": 150.51,
@@ -5007,9 +5326,11 @@
    "reg_pts": 1507.71,
    "div_rank": 5,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 125.33,
+   "points_rank": 68,
+   "in_wc_pool": false,
    "weekly": {
     "1": 108.7,
     "2": 134.98,
@@ -5049,6 +5370,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 116.57,
+   "points_rank": 189,
+   "in_wc_pool": false,
    "weekly": {
     "1": 102.84,
     "2": 144.03,
@@ -5088,6 +5411,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 104.57,
+   "points_rank": 257,
+   "in_wc_pool": false,
    "weekly": {
     "1": 106.65,
     "2": 99.41,
@@ -5127,6 +5452,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 109.22,
+   "points_rank": 202,
+   "in_wc_pool": false,
    "weekly": {
     "1": 104.46,
     "2": 115.55,
@@ -5166,6 +5493,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 125.56,
+   "points_rank": 103,
+   "in_wc_pool": false,
    "weekly": {
     "1": 131.16,
     "2": 73.14,
@@ -5202,9 +5531,11 @@
    "reg_pts": 1521.33,
    "div_rank": 5,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 123.63,
+   "points_rank": 59,
+   "in_wc_pool": false,
    "weekly": {
     "1": 159.23,
     "2": 118.67,
@@ -5244,6 +5575,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 127.82,
+   "points_rank": 35,
+   "in_wc_pool": true,
    "weekly": {
     "1": 84.67,
     "2": 148.7,
@@ -5280,9 +5613,11 @@
    "reg_pts": 1439.2,
    "div_rank": 6,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 116.63,
+   "points_rank": 120,
+   "in_wc_pool": false,
    "weekly": {
     "1": 116.34,
     "2": 120.33,
@@ -5322,6 +5657,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 120.07,
+   "points_rank": 128,
+   "in_wc_pool": false,
    "weekly": {
     "1": 127.04,
     "2": 95.63,
@@ -5361,6 +5698,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 135.93,
+   "points_rank": 21,
+   "in_wc_pool": true,
    "weekly": {
     "1": 98.65,
     "2": 148.84,
@@ -5402,6 +5741,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 114.07,
+   "points_rank": 197,
+   "in_wc_pool": false,
    "weekly": {
     "1": 126.83,
     "2": 114.64,
@@ -5441,6 +5782,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 120.76,
+   "points_rank": 113,
+   "in_wc_pool": false,
    "weekly": {
     "1": 146.27,
     "2": 127.23,
@@ -5480,6 +5823,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 106.54,
+   "points_rank": 221,
+   "in_wc_pool": false,
    "weekly": {
     "1": 87.48,
     "2": 137.73,
@@ -5519,6 +5864,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 134.22,
+   "points_rank": 22,
+   "in_wc_pool": true,
    "weekly": {
     "1": 119.98,
     "2": 144.01,
@@ -5558,6 +5905,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 120.3,
+   "points_rank": 153,
+   "in_wc_pool": false,
    "weekly": {
     "1": 93.0,
     "2": 83.76,
@@ -5597,6 +5946,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 115.29,
+   "points_rank": 193,
+   "in_wc_pool": false,
    "weekly": {
     "1": 125.97,
     "2": 137.3,
@@ -5636,6 +5987,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 110.27,
+   "points_rank": 205,
+   "in_wc_pool": false,
    "weekly": {
     "1": 90.74,
     "2": 127.8,
@@ -5675,6 +6028,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 122.24,
+   "points_rank": 96,
+   "in_wc_pool": false,
    "weekly": {
     "1": 150.78,
     "2": 143.4,
@@ -5714,6 +6069,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 137.76,
+   "points_rank": 8,
+   "in_wc_pool": true,
    "weekly": {
     "1": 150.67,
     "2": 150.32,
@@ -5753,6 +6110,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 111.43,
+   "points_rank": 210,
+   "in_wc_pool": false,
    "weekly": {
     "1": 92.2,
     "2": 123.29,
@@ -5792,6 +6151,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 124.99,
+   "points_rank": 74,
+   "in_wc_pool": false,
    "weekly": {
     "1": 104.47,
     "2": 132.91,
@@ -5828,9 +6189,11 @@
    "reg_pts": 1500.2,
    "div_rank": 7,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 123.62,
+   "points_rank": 75,
+   "in_wc_pool": false,
    "weekly": {
     "1": 127.32,
     "2": 131.36,
@@ -5870,6 +6233,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 113.96,
+   "points_rank": 208,
+   "in_wc_pool": false,
    "weekly": {
     "1": 107.27,
     "2": 124.13,
@@ -5909,6 +6274,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 110.98,
+   "points_rank": 215,
+   "in_wc_pool": false,
    "weekly": {
     "1": 106.72,
     "2": 95.43,
@@ -5948,6 +6315,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 114.3,
+   "points_rank": 155,
+   "in_wc_pool": false,
    "weekly": {
     "1": 137.25,
     "2": 94.23,
@@ -5987,6 +6356,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 109.76,
+   "points_rank": 227,
+   "in_wc_pool": false,
    "weekly": {
     "1": 102.81,
     "2": 97.17,
@@ -6026,6 +6397,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 114.78,
+   "points_rank": 182,
+   "in_wc_pool": false,
    "weekly": {
     "1": 91.29,
     "2": 160.03,
@@ -6062,9 +6435,11 @@
    "reg_pts": 1455.98,
    "div_rank": 8,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 122.68,
+   "points_rank": 106,
+   "in_wc_pool": false,
    "weekly": {
     "1": 126.71,
     "2": 84.91,
@@ -6104,6 +6479,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 132.81,
+   "points_rank": 29,
+   "in_wc_pool": true,
    "weekly": {
     "1": 105.6,
     "2": 115.22,
@@ -6143,6 +6520,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 104.31,
+   "points_rank": 240,
+   "in_wc_pool": false,
    "weekly": {
     "1": 107.37,
     "2": 94.16,
@@ -6182,6 +6561,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 132.15,
+   "points_rank": 57,
+   "in_wc_pool": false,
    "weekly": {
     "1": 105.5,
     "2": 120.85,
@@ -6221,6 +6602,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 130.66,
+   "points_rank": 43,
+   "in_wc_pool": false,
    "weekly": {
     "1": 101.31,
     "2": 144.24,
@@ -6260,6 +6643,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 115.68,
+   "points_rank": 161,
+   "in_wc_pool": false,
    "weekly": {
     "1": 100.76,
     "2": 104.46,
@@ -6299,6 +6684,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 105.9,
+   "points_rank": 242,
+   "in_wc_pool": false,
    "weekly": {
     "1": 59.55,
     "2": 128.93,
@@ -6338,6 +6725,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 130.65,
+   "points_rank": 16,
+   "in_wc_pool": true,
    "weekly": {
     "1": 124.79,
     "2": 143.89,
@@ -6377,6 +6766,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 121.37,
+   "points_rank": 107,
+   "in_wc_pool": false,
    "weekly": {
     "1": 111.13,
     "2": 109.72,
@@ -6418,6 +6809,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 111.19,
+   "points_rank": 123,
+   "in_wc_pool": false,
    "weekly": {
     "1": 95.54,
     "2": 82.69,
@@ -6457,6 +6850,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 113.64,
+   "points_rank": 201,
+   "in_wc_pool": false,
    "weekly": {
     "1": 127.34,
     "2": 141.92,
@@ -6493,9 +6888,11 @@
    "reg_pts": 1450.84,
    "div_rank": 10,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 121.26,
+   "points_rank": 110,
+   "in_wc_pool": false,
    "weekly": {
     "1": 93.36,
     "2": 134.13,
@@ -6535,6 +6932,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 101.32,
+   "points_rank": 259,
+   "in_wc_pool": false,
    "weekly": {
     "1": 114.65,
     "2": 106.63,
@@ -6574,6 +6973,8 @@
    "qual_type": "fifth_team",
    "bracket": "championship",
    "carry_avg": 112.24,
+   "points_rank": 165,
+   "in_wc_pool": false,
    "weekly": {
     "1": 115.92,
     "2": 126.37,
@@ -6613,6 +7014,8 @@
    "qual_type": "wild_card",
    "bracket": "championship",
    "carry_avg": 132.62,
+   "points_rank": 39,
+   "in_wc_pool": true,
    "weekly": {
     "1": 89.87,
     "2": 119.84,
@@ -6652,6 +7055,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 106.72,
+   "points_rank": 228,
+   "in_wc_pool": false,
    "weekly": {
     "1": 94.59,
     "2": 136.34,
@@ -6691,6 +7096,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 118.32,
+   "points_rank": 147,
+   "in_wc_pool": false,
    "weekly": {
     "1": 103.97,
     "2": 132.55,
@@ -6730,6 +7137,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 90.93,
+   "points_rank": 268,
+   "in_wc_pool": false,
    "weekly": {
     "1": 81.93,
     "2": 116.24,
@@ -6769,6 +7178,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 134.86,
+   "points_rank": 19,
+   "in_wc_pool": true,
    "weekly": {
     "1": 160.71,
     "2": 117.68,
@@ -6805,9 +7216,11 @@
    "reg_pts": 1518.33,
    "div_rank": 6,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 130.42,
+   "points_rank": 61,
+   "in_wc_pool": false,
    "weekly": {
     "1": 128.45,
     "2": 134.73,
@@ -6847,6 +7260,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 130.36,
+   "points_rank": 31,
+   "in_wc_pool": true,
    "weekly": {
     "1": 171.88,
     "2": 171.66,
@@ -6886,6 +7301,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 134.23,
+   "points_rank": 10,
+   "in_wc_pool": true,
    "weekly": {
     "1": 160.99,
     "2": 121.2,
@@ -6925,6 +7342,8 @@
    "qual_type": "wild_card",
    "bracket": "championship",
    "carry_avg": 127.81,
+   "points_rank": 38,
+   "in_wc_pool": true,
    "weekly": {
     "1": 79.59,
     "2": 149.14,
@@ -6964,6 +7383,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 120.64,
+   "points_rank": 122,
+   "in_wc_pool": false,
    "weekly": {
     "1": 141.28,
     "2": 102.62,
@@ -7003,6 +7424,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 100.79,
+   "points_rank": 248,
+   "in_wc_pool": false,
    "weekly": {
     "1": 126.26,
     "2": 109.48,
@@ -7042,6 +7465,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 153.16,
+   "points_rank": 1,
+   "in_wc_pool": true,
    "weekly": {
     "1": 155.03,
     "2": 149.85,
@@ -7081,6 +7506,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 116.36,
+   "points_rank": 200,
+   "in_wc_pool": false,
    "weekly": {
     "1": 139.44,
     "2": 87.43,
@@ -7120,6 +7547,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 118.56,
+   "points_rank": 125,
+   "in_wc_pool": false,
    "weekly": {
     "1": 102.63,
     "2": 136.93,
@@ -7159,6 +7588,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 131.4,
+   "points_rank": 23,
+   "in_wc_pool": true,
    "weekly": {
     "1": 153.47,
     "2": 95.04,
@@ -7195,9 +7626,11 @@
    "reg_pts": 1445.69,
    "div_rank": 7,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 120.23,
+   "points_rank": 115,
+   "in_wc_pool": false,
    "weekly": {
     "1": 115.6,
     "2": 109.56,
@@ -7237,6 +7670,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 128.35,
+   "points_rank": 50,
+   "in_wc_pool": false,
    "weekly": {
     "1": 128.17,
     "2": 151.25,
@@ -7276,6 +7711,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 108.94,
+   "points_rank": 209,
+   "in_wc_pool": false,
    "weekly": {
     "1": 102.94,
     "2": 111.94,
@@ -7312,9 +7749,11 @@
    "reg_pts": 1451.8,
    "div_rank": 6,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 120.93,
+   "points_rank": 109,
+   "in_wc_pool": false,
    "weekly": {
     "1": 105.13,
     "2": 143.98,
@@ -7354,6 +7793,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 92.73,
+   "points_rank": 273,
+   "in_wc_pool": false,
    "weekly": {
     "1": 98.82,
     "2": 55.0,
@@ -7393,6 +7834,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 129.33,
+   "points_rank": 41,
+   "in_wc_pool": true,
    "weekly": {
     "1": 125.02,
     "2": 155.42,
@@ -7432,6 +7875,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 114.27,
+   "points_rank": 175,
+   "in_wc_pool": false,
    "weekly": {
     "1": 99.27,
     "2": 90.33,
@@ -7471,6 +7916,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 133.49,
+   "points_rank": 47,
+   "in_wc_pool": false,
    "weekly": {
     "1": 153.92,
     "2": 146.63,
@@ -7510,6 +7957,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 118.28,
+   "points_rank": 135,
+   "in_wc_pool": false,
    "weekly": {
     "1": 143.06,
     "2": 117.52,
@@ -7549,6 +7998,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 124.3,
+   "points_rank": 87,
+   "in_wc_pool": false,
    "weekly": {
     "1": 135.84,
     "2": 93.03,
@@ -7588,6 +8039,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 124.09,
+   "points_rank": 58,
+   "in_wc_pool": false,
    "weekly": {
     "1": 105.68,
     "2": 140.34,
@@ -7627,6 +8080,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 117.32,
+   "points_rank": 151,
+   "in_wc_pool": false,
    "weekly": {
     "1": 119.67,
     "2": 94.93,
@@ -7666,6 +8121,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 107.95,
+   "points_rank": 207,
+   "in_wc_pool": false,
    "weekly": {
     "1": 103.01,
     "2": 136.67,
@@ -7702,9 +8159,11 @@
    "reg_pts": 1466.15,
    "div_rank": 11,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 121.55,
+   "points_rank": 99,
+   "in_wc_pool": false,
    "weekly": {
     "1": 98.94,
     "2": 104.21,
@@ -7744,6 +8203,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 92.63,
+   "points_rank": 267,
+   "in_wc_pool": false,
    "weekly": {
     "1": 87.66,
     "2": 79.69,
@@ -7783,6 +8244,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 111.08,
+   "points_rank": 216,
+   "in_wc_pool": false,
    "weekly": {
     "1": 155.75,
     "2": 83.64,
@@ -7822,6 +8285,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 117.03,
+   "points_rank": 163,
+   "in_wc_pool": false,
    "weekly": {
     "1": 120.76,
     "2": 144.6,
@@ -7861,6 +8326,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 118.34,
+   "points_rank": 144,
+   "in_wc_pool": false,
    "weekly": {
     "1": 95.88,
     "2": 104.77,
@@ -7900,6 +8367,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 114.25,
+   "points_rank": 179,
+   "in_wc_pool": false,
    "weekly": {
     "1": 99.41,
     "2": 119.91,
@@ -7939,6 +8408,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 126.51,
+   "points_rank": 67,
+   "in_wc_pool": false,
    "weekly": {
     "1": 134.09,
     "2": 158.58,
@@ -7975,9 +8446,11 @@
    "reg_pts": 1490.75,
    "div_rank": 7,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 126.89,
+   "points_rank": 83,
+   "in_wc_pool": false,
    "weekly": {
     "1": 67.17,
     "2": 156.9,
@@ -8017,6 +8490,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 120.29,
+   "points_rank": 130,
+   "in_wc_pool": false,
    "weekly": {
     "1": 124.6,
     "2": 93.17,
@@ -8056,6 +8531,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 122.69,
+   "points_rank": 94,
+   "in_wc_pool": false,
    "weekly": {
     "1": 120.19,
     "2": 103.2,
@@ -8095,6 +8572,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 119.54,
+   "points_rank": 183,
+   "in_wc_pool": false,
    "weekly": {
     "1": 128.69,
     "2": 123.59,
@@ -8134,6 +8613,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 109.39,
+   "points_rank": 229,
+   "in_wc_pool": false,
    "weekly": {
     "1": 114.74,
     "2": 67.97,
@@ -8173,6 +8654,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 116.36,
+   "points_rank": 180,
+   "in_wc_pool": false,
    "weekly": {
     "1": 152.7,
     "2": 154.13,
@@ -8212,6 +8695,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 129.87,
+   "points_rank": 46,
+   "in_wc_pool": false,
    "weekly": {
     "1": 127.02,
     "2": 122.95,
@@ -8251,6 +8736,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 112.43,
+   "points_rank": 213,
+   "in_wc_pool": false,
    "weekly": {
     "1": 118.82,
     "2": 92.77,
@@ -8290,6 +8777,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 113.4,
+   "points_rank": 194,
+   "in_wc_pool": false,
    "weekly": {
     "1": 111.51,
     "2": 95.34,
@@ -8329,6 +8818,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 129.36,
+   "points_rank": 18,
+   "in_wc_pool": true,
    "weekly": {
     "1": 118.24,
     "2": 165.19,
@@ -8368,6 +8859,8 @@
    "qual_type": "wild_card",
    "bracket": "championship",
    "carry_avg": 128.44,
+   "points_rank": 37,
+   "in_wc_pool": true,
    "weekly": {
     "1": 116.99,
     "2": 130.4,
@@ -8404,9 +8897,11 @@
    "reg_pts": 1440.46,
    "div_rank": 5,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 119.0,
+   "points_rank": 118,
+   "in_wc_pool": false,
    "weekly": {
     "1": 108.7,
     "2": 113.91,
@@ -8446,6 +8941,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 125.01,
+   "points_rank": 100,
+   "in_wc_pool": false,
    "weekly": {
     "1": 123.49,
     "2": 112.03,
@@ -8485,6 +8982,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 108.26,
+   "points_rank": 245,
+   "in_wc_pool": false,
    "weekly": {
     "1": 105.26,
     "2": 85.15,
@@ -8524,6 +9023,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 114.89,
+   "points_rank": 168,
+   "in_wc_pool": false,
    "weekly": {
     "1": 101.52,
     "2": 127.08,
@@ -8563,6 +9064,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 116.88,
+   "points_rank": 138,
+   "in_wc_pool": false,
    "weekly": {
     "1": 138.31,
     "2": 123.39,
@@ -8602,6 +9105,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 117.7,
+   "points_rank": 111,
+   "in_wc_pool": false,
    "weekly": {
     "1": 171.29,
     "2": 90.16,
@@ -8641,6 +9146,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 134.96,
+   "points_rank": 20,
+   "in_wc_pool": true,
    "weekly": {
     "1": 147.09,
     "2": 110.42,
@@ -8680,6 +9187,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 107.56,
+   "points_rank": 237,
+   "in_wc_pool": false,
    "weekly": {
     "1": 110.69,
     "2": 88.58,
@@ -8719,6 +9228,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 114.21,
+   "points_rank": 218,
+   "in_wc_pool": false,
    "weekly": {
     "1": 80.93,
     "2": 95.02,
@@ -8758,6 +9269,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 118.36,
+   "points_rank": 157,
+   "in_wc_pool": false,
    "weekly": {
     "1": 119.82,
     "2": 121.97,
@@ -8797,6 +9310,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 102.03,
+   "points_rank": 251,
+   "in_wc_pool": false,
    "weekly": {
     "1": 98.98,
     "2": 77.1,
@@ -8836,6 +9351,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 120.95,
+   "points_rank": 112,
+   "in_wc_pool": false,
    "weekly": {
     "1": 129.4,
     "2": 153.43,
@@ -8875,6 +9392,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 109.02,
+   "points_rank": 187,
+   "in_wc_pool": false,
    "weekly": {
     "1": 138.77,
     "2": 132.68,
@@ -8914,6 +9433,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 111.99,
+   "points_rank": 196,
+   "in_wc_pool": false,
    "weekly": {
     "1": 158.69,
     "2": 67.13,
@@ -8953,6 +9474,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 98.55,
+   "points_rank": 254,
+   "in_wc_pool": false,
    "weekly": {
     "1": 105.84,
     "2": 94.28,
@@ -8992,6 +9515,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 116.2,
+   "points_rank": 159,
+   "in_wc_pool": false,
    "weekly": {
     "1": 96.95,
     "2": 92.14,
@@ -9028,9 +9553,11 @@
    "reg_pts": 1537.4,
    "div_rank": 6,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 122.7,
+   "points_rank": 54,
+   "in_wc_pool": false,
    "weekly": {
     "1": 137.73,
     "2": 160.59,
@@ -9070,6 +9597,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 112.59,
+   "points_rank": 225,
+   "in_wc_pool": false,
    "weekly": {
     "1": 104.4,
     "2": 119.04,
@@ -9109,6 +9638,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 129.16,
+   "points_rank": 42,
+   "in_wc_pool": false,
    "weekly": {
     "1": 125.69,
     "2": 132.78,
@@ -9148,6 +9679,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 123.87,
+   "points_rank": 79,
+   "in_wc_pool": false,
    "weekly": {
     "1": 88.63,
     "2": 107.3,
@@ -9187,6 +9720,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 116.89,
+   "points_rank": 164,
+   "in_wc_pool": false,
    "weekly": {
     "1": 130.27,
     "2": 100.9,
@@ -9226,6 +9761,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 110.7,
+   "points_rank": 214,
+   "in_wc_pool": false,
    "weekly": {
     "1": 126.71,
     "2": 111.51,
@@ -9262,9 +9799,11 @@
    "reg_pts": 1534.98,
    "div_rank": 5,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 124.44,
+   "points_rank": 55,
+   "in_wc_pool": false,
    "weekly": {
     "1": 103.74,
     "2": 157.17,
@@ -9301,9 +9840,11 @@
    "reg_pts": 1482.86,
    "div_rank": 7,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 125.12,
+   "points_rank": 85,
+   "in_wc_pool": false,
    "weekly": {
     "1": 128.38,
     "2": 101.51,
@@ -9343,6 +9884,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 145.67,
+   "points_rank": 3,
+   "in_wc_pool": true,
    "weekly": {
     "1": 124.73,
     "2": 141.01,
@@ -9382,6 +9925,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 133.03,
+   "points_rank": 9,
+   "in_wc_pool": true,
    "weekly": {
     "1": 138.74,
     "2": 106.78,
@@ -9421,6 +9966,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 125.63,
+   "points_rank": 49,
+   "in_wc_pool": false,
    "weekly": {
     "1": 138.22,
     "2": 141.38,
@@ -9460,6 +10007,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 103.28,
+   "points_rank": 249,
+   "in_wc_pool": false,
    "weekly": {
     "1": 125.09,
     "2": 55.75,
@@ -9499,6 +10048,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 103.2,
+   "points_rank": 255,
+   "in_wc_pool": false,
    "weekly": {
     "1": 76.26,
     "2": 101.57,
@@ -9538,6 +10089,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 104.23,
+   "points_rank": 247,
+   "in_wc_pool": false,
    "weekly": {
     "1": 129.98,
     "2": 94.65,
@@ -9577,6 +10130,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 130.42,
+   "points_rank": 12,
+   "in_wc_pool": true,
    "weekly": {
     "1": 156.01,
     "2": 164.85,
@@ -9616,6 +10171,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 102.85,
+   "points_rank": 238,
+   "in_wc_pool": false,
    "weekly": {
     "1": 108.86,
     "2": 101.69,
@@ -9652,9 +10209,11 @@
    "reg_pts": 1512.25,
    "div_rank": 7,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 126.75,
+   "points_rank": 65,
+   "in_wc_pool": false,
    "weekly": {
     "1": 128.57,
     "2": 119.4,
@@ -9691,9 +10250,11 @@
    "reg_pts": 1496.15,
    "div_rank": 8,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 121.56,
+   "points_rank": 78,
+   "in_wc_pool": false,
    "weekly": {
     "1": 148.84,
     "2": 115.31,
@@ -9733,6 +10294,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 127.68,
+   "points_rank": 53,
+   "in_wc_pool": false,
    "weekly": {
     "1": 79.36,
     "2": 156.08,
@@ -9772,6 +10335,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 123.73,
+   "points_rank": 82,
+   "in_wc_pool": false,
    "weekly": {
     "1": 127.26,
     "2": 126.9,
@@ -9811,6 +10376,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 101.39,
+   "points_rank": 260,
+   "in_wc_pool": false,
    "weekly": {
     "1": 100.04,
     "2": 99.37,
@@ -9850,6 +10417,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 112.21,
+   "points_rank": 169,
+   "in_wc_pool": false,
    "weekly": {
     "1": 76.17,
     "2": 92.5,
@@ -9889,6 +10458,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 125.07,
+   "points_rank": 48,
+   "in_wc_pool": false,
    "weekly": {
     "1": 109.32,
     "2": 128.19,
@@ -9928,6 +10499,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 116.18,
+   "points_rank": 156,
+   "in_wc_pool": false,
    "weekly": {
     "1": 105.59,
     "2": 137.56,
@@ -9967,6 +10540,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 105.65,
+   "points_rank": 250,
+   "in_wc_pool": false,
    "weekly": {
     "1": 172.06,
     "2": 113.99,
@@ -10006,6 +10581,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 93.81,
+   "points_rank": 270,
+   "in_wc_pool": false,
    "weekly": {
     "1": 112.36,
     "2": 92.44,
@@ -10045,6 +10622,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 117.84,
+   "points_rank": 143,
+   "in_wc_pool": false,
    "weekly": {
     "1": 155.27,
     "2": 110.48,
@@ -10081,9 +10660,11 @@
    "reg_pts": 1541.55,
    "div_rank": 5,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 126.35,
+   "points_rank": 51,
+   "in_wc_pool": false,
    "weekly": {
     "1": 116.29,
     "2": 125.78,
@@ -10123,6 +10704,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 97.29,
+   "points_rank": 263,
+   "in_wc_pool": false,
    "weekly": {
     "1": 90.4,
     "2": 91.44,
@@ -10162,6 +10745,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 129.17,
+   "points_rank": 56,
+   "in_wc_pool": false,
    "weekly": {
     "1": 93.89,
     "2": 133.6,
@@ -10201,6 +10786,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 123.57,
+   "points_rank": 127,
+   "in_wc_pool": false,
    "weekly": {
     "1": 76.64,
     "2": 137.33,
@@ -10240,6 +10827,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 119.47,
+   "points_rank": 177,
+   "in_wc_pool": false,
    "weekly": {
     "1": 112.51,
     "2": 119.17,
@@ -10279,6 +10868,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 130.29,
+   "points_rank": 44,
+   "in_wc_pool": false,
    "weekly": {
     "1": 141.92,
     "2": 101.98,
@@ -10318,6 +10909,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 134.13,
+   "points_rank": 15,
+   "in_wc_pool": true,
    "weekly": {
     "1": 118.53,
     "2": 136.1,
@@ -10357,6 +10950,8 @@
    "qual_type": "wild_card",
    "bracket": "championship",
    "carry_avg": 133.38,
+   "points_rank": 27,
+   "in_wc_pool": true,
    "weekly": {
     "1": 148.46,
     "2": 133.23,
@@ -10393,9 +10988,11 @@
    "reg_pts": 1440.15,
    "div_rank": 12,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 118.73,
+   "points_rank": 119,
+   "in_wc_pool": false,
    "weekly": {
     "1": 110.56,
     "2": 126.76,
@@ -10435,6 +11032,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 121.9,
+   "points_rank": 137,
+   "in_wc_pool": false,
    "weekly": {
     "1": 159.25,
     "2": 140.52,
@@ -10474,6 +11073,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 132.16,
+   "points_rank": 11,
+   "in_wc_pool": true,
    "weekly": {
     "1": 147.62,
     "2": 136.25,
@@ -10510,9 +11111,11 @@
    "reg_pts": 1467.24,
    "div_rank": 9,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "toilet_bowl",
    "carry_avg": 123.49,
+   "points_rank": 98,
+   "in_wc_pool": false,
    "weekly": {
     "1": 110.79,
     "2": 127.73,
@@ -10552,6 +11155,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 122.9,
+   "points_rank": 80,
+   "in_wc_pool": false,
    "weekly": {
     "1": 90.38,
     "2": 151.99,
@@ -10593,6 +11198,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 134.02,
+   "points_rank": 24,
+   "in_wc_pool": true,
    "weekly": {
     "1": 141.35,
     "2": 130.54,
@@ -10632,6 +11239,8 @@
    "qual_type": null,
    "bracket": "consolation",
    "carry_avg": 111.82,
+   "points_rank": 173,
+   "in_wc_pool": false,
    "weekly": {
     "1": 101.61,
     "2": 132.99,
@@ -10671,6 +11280,8 @@
    "qual_type": "division_seed",
    "bracket": "championship",
    "carry_avg": 121.81,
+   "points_rank": 71,
+   "in_wc_pool": false,
    "weekly": {
     "1": 103.73,
     "2": 97.3,
@@ -10710,6 +11321,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 120.72,
+   "points_rank": 146,
+   "in_wc_pool": false,
    "weekly": {
     "1": 145.18,
     "2": 88.88,
@@ -10749,6 +11362,8 @@
    "qual_type": null,
    "bracket": "toilet_bowl",
    "carry_avg": 114.43,
+   "points_rank": 192,
+   "in_wc_pool": false,
    "weekly": {
     "1": 120.8,
     "2": 106.86,
@@ -10785,9 +11400,11 @@
    "reg_pts": 1480.5,
    "div_rank": 5,
    "seed": null,
-   "qual_type": "wild_card",
-   "bracket": "championship",
+   "qual_type": null,
+   "bracket": "consolation",
    "carry_avg": 124.82,
+   "points_rank": 89,
+   "in_wc_pool": false,
    "weekly": {
     "1": 130.79,
     "2": 151.86,
@@ -12569,11 +13186,12 @@
   "standings": [
    {
     "rank": 1,
-    "prev_rank": 9,
-    "movement": 8,
+    "prev_rank": 8,
+    "movement": 7,
     "team_key": "sample06:10",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 144.77,
     "weeks": {
      "15": 143.36,
@@ -12584,11 +13202,12 @@
    },
    {
     "rank": 2,
-    "prev_rank": 11,
-    "movement": 9,
+    "prev_rank": 9,
+    "movement": 7,
     "team_key": "sample07:5",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 141.7,
     "weeks": {
      "15": 143.82,
@@ -12604,6 +13223,7 @@
     "team_key": "sample05:6",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 134.62,
     "weeks": {
      "15": 161.55,
@@ -12614,11 +13234,12 @@
    },
    {
     "rank": 4,
-    "prev_rank": 48,
-    "movement": 44,
+    "prev_rank": 38,
+    "movement": 34,
     "team_key": "sample12:9",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 134.22,
     "weeks": {
      "15": 126.81,
@@ -12629,11 +13250,12 @@
    },
    {
     "rank": 5,
-    "prev_rank": 19,
-    "movement": 14,
+    "prev_rank": 14,
+    "movement": 9,
     "team_key": "sample14:6",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 130.65,
     "weeks": {
      "15": 148.1,
@@ -12644,11 +13266,12 @@
    },
    {
     "rank": 6,
-    "prev_rank": 33,
-    "movement": 27,
+    "prev_rank": 26,
+    "movement": 20,
     "team_key": "sample09:4",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 150.71,
     "weeks": {
      "15": 119.69,
@@ -12659,11 +13282,12 @@
    },
    {
     "rank": 7,
-    "prev_rank": 45,
-    "movement": 38,
+    "prev_rank": 35,
+    "movement": 28,
     "team_key": "sample16:9",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 129.33,
     "weeks": {
      "15": 132.46,
@@ -12674,11 +13298,12 @@
    },
    {
     "rank": 8,
-    "prev_rank": 21,
-    "movement": 13,
+    "prev_rank": 16,
+    "movement": 8,
     "team_key": "sample22:12",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 134.13,
     "weeks": {
      "15": 144.35,
@@ -12689,11 +13314,12 @@
    },
    {
     "rank": 9,
-    "prev_rank": 43,
-    "movement": 34,
+    "prev_rank": 33,
+    "movement": 24,
     "team_key": "sample02:9",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 134.5,
     "weeks": {
      "15": 128.31,
@@ -12704,11 +13330,12 @@
    },
    {
     "rank": 10,
-    "prev_rank": 60,
-    "movement": 50,
+    "prev_rank": 46,
+    "movement": 36,
     "team_key": "sample21:9",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 127.68,
     "weeks": {
      "15": 127.17,
@@ -12719,11 +13346,12 @@
    },
    {
     "rank": 11,
-    "prev_rank": 27,
-    "movement": 16,
+    "prev_rank": 21,
+    "movement": 10,
     "team_key": "sample20:12",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 133.03,
     "weeks": {
      "15": 141.5,
@@ -12734,26 +13362,12 @@
    },
    {
     "rank": 12,
-    "prev_rank": 37,
-    "movement": 25,
-    "team_key": "sample11:8",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 125.33,
-    "weeks": {
-     "15": 141.48,
-     "16": 160.38,
-     "17": null
-    },
-    "total": 427.19
-   },
-   {
-    "rank": 13,
     "prev_rank": 3,
-    "movement": -10,
+    "movement": -9,
     "team_key": "sample15:12",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 153.16,
     "weeks": {
      "15": 143.57,
@@ -12763,42 +13377,13 @@
     "total": 426.1
    },
    {
-    "rank": 14,
-    "prev_rank": 13,
-    "movement": -1,
-    "team_key": "sample10:9",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 125.58,
-    "weeks": {
-     "15": 158.89,
-     "16": 140.88,
-     "17": null
-    },
-    "total": 425.35
-   },
-   {
-    "rank": 15,
-    "prev_rank": 10,
-    "movement": -5,
-    "team_key": "sample21:7",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 126.75,
-    "weeks": {
-     "15": 160.21,
-     "16": 136.04,
-     "17": null
-    },
-    "total": 423.0
-   },
-   {
-    "rank": 16,
-    "prev_rank": 31,
-    "movement": 15,
+    "rank": 13,
+    "prev_rank": 25,
+    "movement": 12,
     "team_key": "sample12:5",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 135.93,
     "weeks": {
      "15": 135.29,
@@ -12808,12 +13393,13 @@
     "total": 421.6
    },
    {
-    "rank": 16,
-    "prev_rank": 17,
-    "movement": 1,
+    "rank": 13,
+    "prev_rank": 12,
+    "movement": -1,
     "team_key": "sample14:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 121.37,
     "weeks": {
      "15": 159.59,
@@ -12823,12 +13409,13 @@
     "total": 421.6
    },
    {
-    "rank": 18,
+    "rank": 15,
     "prev_rank": 2,
-    "movement": -16,
+    "movement": -13,
     "team_key": "sample02:10",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 135.07,
     "weeks": {
      "15": 162.79,
@@ -12838,12 +13425,13 @@
     "total": 421.56
    },
    {
-    "rank": 19,
-    "prev_rank": 7,
-    "movement": -12,
+    "rank": 16,
+    "prev_rank": 6,
+    "movement": -10,
     "team_key": "sample23:1",
     "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
+    "qualified_via": "Wild card (top 15% in points)",
+    "qual_status": "final",
     "carry_avg": 133.38,
     "weeks": {
      "15": 155.96,
@@ -12853,12 +13441,13 @@
     "total": 421.1
    },
    {
-    "rank": 20,
-    "prev_rank": 15,
-    "movement": -5,
+    "rank": 17,
+    "prev_rank": 11,
+    "movement": -6,
     "team_key": "sample05:12",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 128.37,
     "weeks": {
      "15": 153.29,
@@ -12868,27 +13457,13 @@
     "total": 420.87
    },
    {
-    "rank": 21,
-    "prev_rank": 6,
-    "movement": -15,
-    "team_key": "sample12:1",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 123.63,
-    "weeks": {
-     "15": 168.71,
-     "16": 126.62,
-     "17": null
-    },
-    "total": 418.96
-   },
-   {
-    "rank": 22,
-    "prev_rank": 29,
-    "movement": 7,
+    "rank": 18,
+    "prev_rank": 23,
+    "movement": 5,
     "team_key": "sample10:4",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 127.46,
     "weeks": {
      "15": 145.07,
@@ -12898,12 +13473,13 @@
     "total": 418.89
    },
    {
-    "rank": 23,
-    "prev_rank": 20,
-    "movement": -3,
+    "rank": 19,
+    "prev_rank": 15,
+    "movement": -4,
     "team_key": "sample07:9",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 128.61,
     "weeks": {
      "15": 149.99,
@@ -12913,12 +13489,13 @@
     "total": 418.72
    },
    {
-    "rank": 24,
-    "prev_rank": 28,
-    "movement": 4,
+    "rank": 20,
+    "prev_rank": 22,
+    "movement": 2,
     "team_key": "sample03:11",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 122.29,
     "weeks": {
      "15": 151.57,
@@ -12928,12 +13505,13 @@
     "total": 418.35
    },
    {
-    "rank": 25,
+    "rank": 21,
     "prev_rank": 1,
-    "movement": -24,
+    "movement": -20,
     "team_key": "sample04:9",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 147.02,
     "weeks": {
      "15": 159.09,
@@ -12943,27 +13521,13 @@
     "total": 417.08
    },
    {
-    "rank": 26,
-    "prev_rank": 40,
-    "movement": 14,
-    "team_key": "sample02:8",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 125.64,
-    "weeks": {
-     "15": 140.16,
-     "16": 150.45,
-     "17": null
-    },
-    "total": 416.25
-   },
-   {
-    "rank": 27,
-    "prev_rank": 22,
+    "rank": 22,
+    "prev_rank": 17,
     "movement": -5,
     "team_key": "sample20:6",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 123.87,
     "weeks": {
      "15": 153.69,
@@ -12973,12 +13537,13 @@
     "total": 414.81
    },
    {
-    "rank": 28,
-    "prev_rank": 69,
-    "movement": 41,
+    "rank": 23,
+    "prev_rank": 54,
+    "movement": 31,
     "team_key": "sample13:4",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 124.99,
     "weeks": {
      "15": 125.32,
@@ -12988,12 +13553,13 @@
     "total": 413.53
    },
    {
-    "rank": 29,
-    "prev_rank": 54,
-    "movement": 25,
+    "rank": 24,
+    "prev_rank": 41,
+    "movement": 17,
     "team_key": "sample01:2",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 130.08,
     "weeks": {
      "15": 127.56,
@@ -13003,27 +13569,13 @@
     "total": 411.03
    },
    {
-    "rank": 30,
-    "prev_rank": 23,
-    "movement": -7,
-    "team_key": "sample15:6",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 130.42,
-    "weeks": {
-     "15": 146.49,
-     "16": 133.91,
-     "17": null
-    },
-    "total": 410.82
-   },
-   {
-    "rank": 31,
-    "prev_rank": 55,
-    "movement": 24,
+    "rank": 25,
+    "prev_rank": 42,
+    "movement": 17,
     "team_key": "sample11:6",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 139.54,
     "weeks": {
      "15": 117.82,
@@ -13033,12 +13585,13 @@
     "total": 407.8
    },
    {
-    "rank": 32,
-    "prev_rank": 95,
-    "movement": 63,
+    "rank": 26,
+    "prev_rank": 74,
+    "movement": 48,
     "team_key": "sample20:11",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 145.67,
     "weeks": {
      "15": 91.91,
@@ -13048,12 +13601,13 @@
     "total": 405.33
    },
    {
-    "rank": 33,
-    "prev_rank": 30,
+    "rank": 27,
+    "prev_rank": 24,
     "movement": -3,
     "team_key": "sample01:1",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 124.58,
     "weeks": {
      "15": 147.81,
@@ -13063,12 +13617,13 @@
     "total": 405.16
    },
    {
-    "rank": 34,
-    "prev_rank": 8,
-    "movement": -26,
+    "rank": 28,
+    "prev_rank": 7,
+    "movement": -21,
     "team_key": "sample04:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 125.1,
     "weeks": {
      "15": 163.36,
@@ -13078,12 +13633,13 @@
     "total": 404.89
    },
    {
-    "rank": 35,
-    "prev_rank": 39,
-    "movement": 4,
+    "rank": 29,
+    "prev_rank": 31,
+    "movement": 2,
     "team_key": "sample13:12",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 132.81,
     "weeks": {
      "15": 133.81,
@@ -13093,12 +13649,13 @@
     "total": 403.91
    },
    {
-    "rank": 36,
-    "prev_rank": 72,
-    "movement": 36,
+    "rank": 30,
+    "prev_rank": 57,
+    "movement": 27,
     "team_key": "sample19:10",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 120.95,
     "weeks": {
      "15": 128.77,
@@ -13108,12 +13665,13 @@
     "total": 403.57
    },
    {
-    "rank": 37,
-    "prev_rank": 61,
-    "movement": 24,
+    "rank": 31,
+    "prev_rank": 47,
+    "movement": 16,
     "team_key": "sample05:9",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 119.45,
     "weeks": {
      "15": 134.94,
@@ -13123,12 +13681,13 @@
     "total": 402.68
    },
    {
-    "rank": 38,
-    "prev_rank": 83,
-    "movement": 45,
+    "rank": 32,
+    "prev_rank": 67,
+    "movement": 35,
     "team_key": "sample18:6",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 129.87,
     "weeks": {
      "15": 115.21,
@@ -13138,27 +13697,13 @@
     "total": 401.25
    },
    {
-    "rank": 39,
-    "prev_rank": 42,
-    "movement": 3,
-    "team_key": "sample23:2",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 118.73,
-    "weeks": {
-     "15": 144.3,
-     "16": 135.96,
-     "17": null
-    },
-    "total": 398.99
-   },
-   {
-    "rank": 40,
-    "prev_rank": 36,
+    "rank": 33,
+    "prev_rank": 29,
     "movement": -4,
     "team_key": "sample22:1",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 125.07,
     "weeks": {
      "15": 143.93,
@@ -13168,12 +13713,13 @@
     "total": 397.6
    },
    {
-    "rank": 41,
-    "prev_rank": 111,
-    "movement": 70,
+    "rank": 34,
+    "prev_rank": 83,
+    "movement": 49,
     "team_key": "sample15:8",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 134.23,
     "weeks": {
      "15": 93.8,
@@ -13183,12 +13729,13 @@
     "total": 397.54
    },
    {
-    "rank": 42,
-    "prev_rank": 77,
-    "movement": 35,
+    "rank": 35,
+    "prev_rank": 62,
+    "movement": 27,
     "team_key": "sample18:12",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 125.01,
     "weeks": {
      "15": 122.85,
@@ -13198,12 +13745,13 @@
     "total": 397.53
    },
    {
-    "rank": 43,
-    "prev_rank": 46,
-    "movement": 3,
+    "rank": 36,
+    "prev_rank": 36,
+    "movement": 0,
     "team_key": "sample15:1",
     "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
+    "qualified_via": "Wild card (top 15% in points)",
+    "qual_status": "final",
     "carry_avg": 132.62,
     "weeks": {
      "15": 128.78,
@@ -13213,12 +13761,13 @@
     "total": 395.15
    },
    {
-    "rank": 44,
+    "rank": 37,
     "prev_rank": 5,
-    "movement": -39,
+    "movement": -32,
     "team_key": "sample22:11",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 130.29,
     "weeks": {
      "15": 164.87,
@@ -13228,12 +13777,13 @@
     "total": 394.41
    },
    {
-    "rank": 45,
-    "prev_rank": 51,
-    "movement": 6,
+    "rank": 38,
+    "prev_rank": 40,
+    "movement": 2,
     "team_key": "sample11:12",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 125.56,
     "weeks": {
      "15": 134.94,
@@ -13243,12 +13793,13 @@
     "total": 390.85
    },
    {
-    "rank": 46,
-    "prev_rank": 34,
+    "rank": 39,
+    "prev_rank": 27,
     "movement": -12,
     "team_key": "sample08:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 127.93,
     "weeks": {
      "15": 142.02,
@@ -13258,12 +13809,13 @@
     "total": 390.83
    },
    {
-    "rank": 47,
-    "prev_rank": 41,
-    "movement": -6,
+    "rank": 40,
+    "prev_rank": 32,
+    "movement": -8,
     "team_key": "sample23:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 134.02,
     "weeks": {
      "15": 129.3,
@@ -13273,12 +13825,13 @@
     "total": 390.57
    },
    {
-    "rank": 48,
-    "prev_rank": 107,
-    "movement": 59,
+    "rank": 41,
+    "prev_rank": 80,
+    "movement": 39,
     "team_key": "sample04:3",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 118.23,
     "weeks": {
      "15": 111.16,
@@ -13288,12 +13841,13 @@
     "total": 389.47
    },
    {
-    "rank": 49,
-    "prev_rank": 35,
+    "rank": 42,
+    "prev_rank": 28,
     "movement": -14,
     "team_key": "sample10:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 132.16,
     "weeks": {
      "15": 137.1,
@@ -13303,12 +13857,13 @@
     "total": 386.43
    },
    {
-    "rank": 50,
-    "prev_rank": 56,
-    "movement": 6,
+    "rank": 43,
+    "prev_rank": 43,
+    "movement": 0,
     "team_key": "sample12:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 120.76,
     "weeks": {
      "15": 136.33,
@@ -13318,12 +13873,13 @@
     "total": 386.42
    },
    {
-    "rank": 51,
-    "prev_rank": 59,
-    "movement": 8,
+    "rank": 44,
+    "prev_rank": 45,
+    "movement": 1,
     "team_key": "sample13:2",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 137.76,
     "weeks": {
      "15": 117.51,
@@ -13333,27 +13889,13 @@
     "total": 385.96
    },
    {
-    "rank": 52,
-    "prev_rank": 14,
-    "movement": -38,
-    "team_key": "sample14:10",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 121.26,
-    "weeks": {
-     "15": 162.99,
-     "16": 101.44,
-     "17": null
-    },
-    "total": 385.69
-   },
-   {
-    "rank": 53,
-    "prev_rank": 63,
-    "movement": 10,
+    "rank": 45,
+    "prev_rank": 49,
+    "movement": 4,
     "team_key": "sample03:2",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 122.33,
     "weeks": {
      "15": 129.68,
@@ -13363,12 +13905,13 @@
     "total": 385.26
    },
    {
-    "rank": 54,
-    "prev_rank": 49,
-    "movement": -5,
+    "rank": 46,
+    "prev_rank": 39,
+    "movement": -7,
     "team_key": "sample02:4",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 135.26,
     "weeks": {
      "15": 125.75,
@@ -13378,12 +13921,13 @@
     "total": 385.14
    },
    {
-    "rank": 55,
-    "prev_rank": 18,
-    "movement": -37,
+    "rank": 47,
+    "prev_rank": 13,
+    "movement": -34,
     "team_key": "sample11:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 125.6,
     "weeks": {
      "15": 153.81,
@@ -13393,27 +13937,13 @@
     "total": 385.12
    },
    {
-    "rank": 56,
-    "prev_rank": 87,
-    "movement": 31,
-    "team_key": "sample09:10",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 124.14,
-    "weeks": {
-     "15": 118.08,
-     "16": 142.71,
-     "17": null
-    },
-    "total": 384.93
-   },
-   {
-    "rank": 57,
-    "prev_rank": 88,
-    "movement": 31,
+    "rank": 48,
+    "prev_rank": 70,
+    "movement": 22,
     "team_key": "sample08:1",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 118.69,
     "weeks": {
      "15": 122.78,
@@ -13423,12 +13953,13 @@
     "total": 383.22
    },
    {
-    "rank": 58,
-    "prev_rank": 74,
-    "movement": 16,
+    "rank": 49,
+    "prev_rank": 59,
+    "movement": 10,
     "team_key": "sample03:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 124.08,
     "weeks": {
      "15": 124.3,
@@ -13438,12 +13969,13 @@
     "total": 382.31
    },
    {
-    "rank": 59,
-    "prev_rank": 75,
-    "movement": 16,
+    "rank": 50,
+    "prev_rank": 60,
+    "movement": 10,
     "team_key": "sample20:5",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 129.16,
     "weeks": {
      "15": 119.15,
@@ -13453,12 +13985,13 @@
     "total": 380.56
    },
    {
-    "rank": 60,
-    "prev_rank": 64,
-    "movement": 4,
+    "rank": 51,
+    "prev_rank": 50,
+    "movement": -1,
     "team_key": "sample06:12",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 117.32,
     "weeks": {
      "15": 134.02,
@@ -13468,12 +14001,13 @@
     "total": 380.54
    },
    {
-    "rank": 61,
-    "prev_rank": 73,
-    "movement": 12,
+    "rank": 52,
+    "prev_rank": 58,
+    "movement": 6,
     "team_key": "sample14:3",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 130.66,
     "weeks": {
      "15": 118.53,
@@ -13483,12 +14017,13 @@
     "total": 379.65
    },
    {
-    "rank": 62,
-    "prev_rank": 108,
-    "movement": 46,
+    "rank": 53,
+    "prev_rank": 81,
+    "movement": 28,
     "team_key": "sample23:4",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 132.16,
     "weeks": {
      "15": 96.94,
@@ -13498,12 +14033,13 @@
     "total": 379.34
    },
    {
-    "rank": 63,
-    "prev_rank": 71,
-    "movement": 8,
+    "rank": 54,
+    "prev_rank": 56,
+    "movement": 2,
     "team_key": "sample21:5",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 130.42,
     "weeks": {
      "15": 119.52,
@@ -13513,27 +14049,13 @@
     "total": 377.04
    },
    {
-    "rank": 64,
-    "prev_rank": 91,
-    "movement": 27,
-    "team_key": "sample13:11",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 122.68,
-    "weeks": {
-     "15": 116.07,
-     "16": 138.1,
-     "17": null
-    },
-    "total": 376.85
-   },
-   {
-    "rank": 65,
-    "prev_rank": 26,
-    "movement": -39,
+    "rank": 55,
+    "prev_rank": 20,
+    "movement": -35,
     "team_key": "sample06:6",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 124.49,
     "weeks": {
      "15": 150.16,
@@ -13543,12 +14065,13 @@
     "total": 375.94
    },
    {
-    "rank": 66,
-    "prev_rank": 44,
+    "rank": 56,
+    "prev_rank": 34,
     "movement": -22,
     "team_key": "sample19:8",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 118.36,
     "weeks": {
      "15": 143.87,
@@ -13558,27 +14081,13 @@
     "total": 374.43
    },
    {
-    "rank": 67,
-    "prev_rank": 113,
-    "movement": 46,
-    "team_key": "sample02:11",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 119.26,
-    "weeks": {
-     "15": 107.63,
-     "16": 147.28,
-     "17": null
-    },
-    "total": 374.17
-   },
-   {
-    "rank": 68,
-    "prev_rank": 67,
-    "movement": -1,
+    "rank": 57,
+    "prev_rank": 53,
+    "movement": -4,
     "team_key": "sample14:2",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 132.15,
     "weeks": {
      "15": 118.55,
@@ -13588,27 +14097,13 @@
     "total": 373.76
    },
    {
-    "rank": 69,
-    "prev_rank": 32,
-    "movement": -37,
-    "team_key": "sample16:4",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 120.23,
-    "weeks": {
-     "15": 150.75,
-     "16": 102.5,
-     "17": null
-    },
-    "total": 373.48
-   },
-   {
-    "rank": 70,
-    "prev_rank": 70,
-    "movement": 0,
+    "rank": 58,
+    "prev_rank": 55,
+    "movement": -3,
     "team_key": "sample11:2",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 118.46,
     "weeks": {
      "15": 131.71,
@@ -13618,12 +14113,13 @@
     "total": 373.07
    },
    {
-    "rank": 71,
-    "prev_rank": 92,
-    "movement": 21,
+    "rank": 59,
+    "prev_rank": 72,
+    "movement": 13,
     "team_key": "sample17:8",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 117.03,
     "weeks": {
      "15": 121.43,
@@ -13633,27 +14129,13 @@
     "total": 372.59
    },
    {
-    "rank": 72,
-    "prev_rank": 50,
-    "movement": -22,
-    "team_key": "sample07:8",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 128.3,
-    "weeks": {
-     "15": 132.66,
-     "16": 111.44,
-     "17": null
-    },
-    "total": 372.4
-   },
-   {
-    "rank": 73,
-    "prev_rank": 12,
-    "movement": -61,
+    "rank": 60,
+    "prev_rank": 10,
+    "movement": -50,
     "team_key": "sample15:5",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 134.86,
     "weeks": {
      "15": 149.8,
@@ -13663,12 +14145,13 @@
     "total": 372.37
    },
    {
-    "rank": 74,
-    "prev_rank": 38,
-    "movement": -36,
+    "rank": 61,
+    "prev_rank": 30,
+    "movement": -31,
     "team_key": "sample22:8",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 129.17,
     "weeks": {
      "15": 137.52,
@@ -13678,12 +14161,13 @@
     "total": 369.86
    },
    {
-    "rank": 75,
-    "prev_rank": 66,
-    "movement": -9,
+    "rank": 62,
+    "prev_rank": 52,
+    "movement": -10,
     "team_key": "sample18:10",
     "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
+    "qualified_via": "Wild card (top 15% in points)",
+    "qual_status": "final",
     "carry_avg": 128.44,
     "weeks": {
      "15": 122.79,
@@ -13693,12 +14177,13 @@
     "total": 367.89
    },
    {
-    "rank": 76,
-    "prev_rank": 76,
-    "movement": 0,
+    "rank": 63,
+    "prev_rank": 61,
+    "movement": -2,
     "team_key": "sample18:9",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 129.36,
     "weeks": {
      "15": 118.88,
@@ -13708,12 +14193,13 @@
     "total": 367.58
    },
    {
-    "rank": 77,
-    "prev_rank": 25,
-    "movement": -52,
+    "rank": 64,
+    "prev_rank": 19,
+    "movement": -45,
     "team_key": "sample19:5",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 134.96,
     "weeks": {
      "15": 140.4,
@@ -13723,12 +14209,13 @@
     "total": 366.84
    },
    {
-    "rank": 78,
-    "prev_rank": 78,
-    "movement": 0,
+    "rank": 65,
+    "prev_rank": 63,
+    "movement": -2,
     "team_key": "sample07:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 122.06,
     "weeks": {
      "15": 125.63,
@@ -13738,12 +14225,13 @@
     "total": 366.48
    },
    {
-    "rank": 79,
-    "prev_rank": 106,
-    "movement": 27,
+    "rank": 66,
+    "prev_rank": 79,
+    "movement": 13,
     "team_key": "sample07:4",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 125.5,
     "weeks": {
      "15": 104.86,
@@ -13753,27 +14241,13 @@
     "total": 365.86
    },
    {
-    "rank": 80,
-    "prev_rank": 53,
-    "movement": -27,
-    "team_key": "sample17:12",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 126.89,
-    "weeks": {
-     "15": 131.03,
-     "16": 107.9,
-     "17": null
-    },
-    "total": 365.82
-   },
-   {
-    "rank": 81,
-    "prev_rank": 104,
-    "movement": 23,
+    "rank": 67,
+    "prev_rank": 77,
+    "movement": 10,
     "team_key": "sample13:1",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 122.24,
     "weeks": {
      "15": 108.29,
@@ -13783,12 +14257,13 @@
     "total": 362.85
    },
    {
-    "rank": 82,
-    "prev_rank": 57,
-    "movement": -25,
+    "rank": 68,
+    "prev_rank": 44,
+    "movement": -24,
     "team_key": "sample17:11",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 126.51,
     "weeks": {
      "15": 129.84,
@@ -13798,12 +14273,13 @@
     "total": 361.62
    },
    {
-    "rank": 83,
-    "prev_rank": 85,
-    "movement": 2,
+    "rank": 69,
+    "prev_rank": 68,
+    "movement": -1,
     "team_key": "sample09:12",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 117.15,
     "weeks": {
      "15": 126.82,
@@ -13813,12 +14289,13 @@
     "total": 361.35
    },
    {
-    "rank": 84,
-    "prev_rank": 62,
+    "rank": 70,
+    "prev_rank": 48,
     "movement": -22,
     "team_key": "sample16:3",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 131.4,
     "weeks": {
      "15": 122.09,
@@ -13828,12 +14305,13 @@
     "total": 361.05
    },
    {
-    "rank": 85,
-    "prev_rank": 98,
-    "movement": 13,
+    "rank": 71,
+    "prev_rank": 75,
+    "movement": 4,
     "team_key": "sample09:2",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 121.34,
     "weeks": {
      "15": 112.76,
@@ -13843,12 +14321,13 @@
     "total": 360.78
    },
    {
-    "rank": 86,
-    "prev_rank": 47,
-    "movement": -39,
+    "rank": 72,
+    "prev_rank": 37,
+    "movement": -35,
     "team_key": "sample18:2",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 122.69,
     "weeks": {
      "15": 138.44,
@@ -13858,27 +14337,13 @@
     "total": 360.19
    },
    {
-    "rank": 87,
-    "prev_rank": 103,
-    "movement": 16,
-    "team_key": "sample13:5",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 123.62,
-    "weeks": {
-     "15": 107.53,
-     "16": 128.24,
-     "17": null
-    },
-    "total": 359.39
-   },
-   {
-    "rank": 88,
-    "prev_rank": 86,
-    "movement": -2,
+    "rank": 73,
+    "prev_rank": 69,
+    "movement": -4,
     "team_key": "sample23:9",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 121.81,
     "weeks": {
      "15": 121.66,
@@ -13888,12 +14353,13 @@
     "total": 358.22
    },
    {
-    "rank": 89,
-    "prev_rank": 126,
-    "movement": 37,
+    "rank": 74,
+    "prev_rank": 93,
+    "movement": 19,
     "team_key": "sample02:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 1",
+    "qual_status": "final",
     "carry_avg": 123.04,
     "weeks": {
      "15": 87.94,
@@ -13903,27 +14369,13 @@
     "total": 356.7
    },
    {
-    "rank": 90,
-    "prev_rank": 58,
-    "movement": -32,
-    "team_key": "sample05:3",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 127.87,
-    "weeks": {
-     "15": 128.31,
-     "16": 99.39,
-     "17": null
-    },
-    "total": 355.57
-   },
-   {
-    "rank": 91,
-    "prev_rank": 24,
-    "movement": -67,
+    "rank": 75,
+    "prev_rank": 18,
+    "movement": -57,
     "team_key": "sample08:5",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 134.36,
     "weeks": {
      "15": 141.92,
@@ -13933,27 +14385,13 @@
     "total": 354.9
    },
    {
-    "rank": 92,
-    "prev_rank": 84,
-    "movement": -8,
-    "team_key": "sample23:12",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 124.82,
-    "weeks": {
-     "15": 119.26,
-     "16": 110.23,
-     "17": null
-    },
-    "total": 354.31
-   },
-   {
-    "rank": 93,
-    "prev_rank": 134,
-    "movement": 41,
+    "rank": 76,
+    "prev_rank": 98,
+    "movement": 22,
     "team_key": "sample21:10",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 123.73,
     "weeks": {
      "15": 67.47,
@@ -13963,42 +14401,13 @@
     "total": 351.74
    },
    {
-    "rank": 94,
-    "prev_rank": 16,
-    "movement": -78,
-    "team_key": "sample23:5",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 123.49,
-    "weeks": {
-     "15": 157.77,
-     "16": 69.97,
-     "17": null
-    },
-    "total": 351.23
-   },
-   {
-    "rank": 95,
-    "prev_rank": 100,
-    "movement": 5,
-    "team_key": "sample21:8",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 121.56,
-    "weeks": {
-     "15": 111.67,
-     "16": 117.49,
-     "17": null
-    },
-    "total": 350.72
-   },
-   {
-    "rank": 96,
-    "prev_rank": 132,
-    "movement": 36,
+    "rank": 77,
+    "prev_rank": 96,
+    "movement": 19,
     "team_key": "sample01:5",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 112.32,
     "weeks": {
      "15": 83.87,
@@ -14008,12 +14417,13 @@
     "total": 350.29
    },
    {
-    "rank": 97,
-    "prev_rank": 82,
-    "movement": -15,
+    "rank": 78,
+    "prev_rank": 66,
+    "movement": -12,
     "team_key": "sample15:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 130.36,
     "weeks": {
      "15": 114.84,
@@ -14023,12 +14433,13 @@
     "total": 348.55
    },
    {
-    "rank": 98,
-    "prev_rank": 89,
-    "movement": -9,
+    "rank": 79,
+    "prev_rank": 71,
+    "movement": -8,
     "team_key": "sample12:2",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 127.82,
     "weeks": {
      "15": 112.7,
@@ -14038,27 +14449,13 @@
     "total": 348.0
    },
    {
-    "rank": 99,
-    "prev_rank": 110,
-    "movement": 11,
-    "team_key": "sample07:3",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 125.71,
-    "weeks": {
-     "15": 102.61,
-     "16": 119.66,
-     "17": null
-    },
-    "total": 347.98
-   },
-   {
-    "rank": 100,
-    "prev_rank": 118,
-    "movement": 18,
+    "rank": 80,
+    "prev_rank": 88,
+    "movement": 8,
     "team_key": "sample14:12",
     "qual_type": "fifth_team",
     "qualified_via": "5th team (tied best record)",
+    "qual_status": "final",
     "carry_avg": 112.24,
     "weeks": {
      "15": 112.33,
@@ -14068,12 +14465,13 @@
     "total": 346.27
    },
    {
-    "rank": 101,
-    "prev_rank": 115,
-    "movement": 14,
+    "rank": 81,
+    "prev_rank": 86,
+    "movement": 5,
     "team_key": "sample09:7",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 125.28,
     "weeks": {
      "15": 101.18,
@@ -14083,27 +14481,13 @@
     "total": 346.0
    },
    {
-    "rank": 102,
-    "prev_rank": 129,
-    "movement": 27,
-    "team_key": "sample20:9",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 124.44,
-    "weeks": {
-     "15": 83.59,
-     "16": 137.42,
-     "17": null
-    },
-    "total": 345.45
-   },
-   {
-    "rank": 103,
-    "prev_rank": 101,
-    "movement": -2,
+    "rank": 82,
+    "prev_rank": 76,
+    "movement": -6,
     "team_key": "sample17:2",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 124.09,
     "weeks": {
      "15": 108.31,
@@ -14113,12 +14497,13 @@
     "total": 345.34
    },
    {
-    "rank": 104,
-    "prev_rank": 114,
-    "movement": 10,
+    "rank": 83,
+    "prev_rank": 85,
+    "movement": 2,
     "team_key": "sample10:5",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 136.93,
     "weeks": {
      "15": 89.91,
@@ -14128,102 +14513,13 @@
     "total": 345.05
    },
    {
-    "rank": 105,
-    "prev_rank": 97,
-    "movement": -8,
-    "team_key": "sample04:6",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 125.93,
-    "weeks": {
-     "15": 110.56,
-     "16": 106.73,
-     "17": null
-    },
-    "total": 343.22
-   },
-   {
-    "rank": 106,
-    "prev_rank": 99,
-    "movement": -7,
-    "team_key": "sample09:6",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 124.83,
-    "weeks": {
-     "15": 108.56,
-     "16": 109.63,
-     "17": null
-    },
-    "total": 343.02
-   },
-   {
-    "rank": 107,
-    "prev_rank": 102,
-    "movement": -5,
-    "team_key": "sample20:3",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 122.7,
-    "weeks": {
-     "15": 108.54,
-     "16": 111.32,
-     "17": null
-    },
-    "total": 342.56
-   },
-   {
-    "rank": 108,
-    "prev_rank": 93,
-    "movement": -15,
-    "team_key": "sample02:2",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 120.2,
-    "weeks": {
-     "15": 117.74,
-     "16": 103.73,
-     "17": null
-    },
-    "total": 341.67
-   },
-   {
-    "rank": 109,
-    "prev_rank": 90,
-    "movement": -19,
-    "team_key": "sample07:6",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 125.18,
-    "weeks": {
-     "15": 115.28,
-     "16": 98.87,
-     "17": null
-    },
-    "total": 339.33
-   },
-   {
-    "rank": 110,
-    "prev_rank": 120,
-    "movement": 10,
-    "team_key": "sample02:12",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 123.42,
-    "weeks": {
-     "15": 94.9,
-     "16": 120.36,
-     "17": null
-    },
-    "total": 338.68
-   },
-   {
-    "rank": 111,
-    "prev_rank": 94,
-    "movement": -17,
+    "rank": 84,
+    "prev_rank": 73,
+    "movement": -11,
     "team_key": "sample17:1",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 124.3,
     "weeks": {
      "15": 113.62,
@@ -14233,12 +14529,13 @@
     "total": 337.37
    },
    {
-    "rank": 112,
-    "prev_rank": 124,
-    "movement": 12,
+    "rank": 85,
+    "prev_rank": 91,
+    "movement": 6,
     "team_key": "sample10:11",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 127.15,
     "weeks": {
      "15": 88.38,
@@ -14248,27 +14545,13 @@
     "total": 337.22
    },
    {
-    "rank": 113,
-    "prev_rank": 128,
-    "movement": 15,
-    "team_key": "sample17:5",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 121.55,
-    "weeks": {
-     "15": 88.42,
-     "16": 126.93,
-     "17": null
-    },
-    "total": 336.9
-   },
-   {
-    "rank": 114,
-    "prev_rank": 123,
-    "movement": 9,
+    "rank": 86,
+    "prev_rank": 90,
+    "movement": 4,
     "team_key": "sample15:9",
     "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
+    "qualified_via": "Wild card (top 15% in points)",
+    "qual_status": "final",
     "carry_avg": 127.81,
     "weeks": {
      "15": 87.84,
@@ -14278,42 +14561,13 @@
     "total": 336.1
    },
    {
-    "rank": 115,
-    "prev_rank": 68,
-    "movement": -47,
-    "team_key": "sample08:4",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 127.54,
-    "weeks": {
-     "15": 122.86,
-     "16": 83.88,
-     "17": null
-    },
-    "total": 334.28
-   },
-   {
-    "rank": 116,
-    "prev_rank": 52,
-    "movement": -64,
-    "team_key": "sample18:11",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 119.0,
-    "weeks": {
-     "15": 141.41,
-     "16": 72.48,
-     "17": null
-    },
-    "total": 332.89
-   },
-   {
-    "rank": 117,
-    "prev_rank": 65,
-    "movement": -52,
+    "rank": 87,
+    "prev_rank": 51,
+    "movement": -36,
     "team_key": "sample06:3",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 117.92,
     "weeks": {
      "15": 133.33,
@@ -14323,27 +14577,13 @@
     "total": 332.18
    },
    {
-    "rank": 118,
-    "prev_rank": 79,
-    "movement": -39,
-    "team_key": "sample16:7",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 120.93,
-    "weeks": {
-     "15": 126.57,
-     "16": 82.43,
-     "17": null
-    },
-    "total": 329.93
-   },
-   {
-    "rank": 119,
-    "prev_rank": 105,
-    "movement": -14,
+    "rank": 88,
+    "prev_rank": 78,
+    "movement": -10,
     "team_key": "sample19:4",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 117.7,
     "weeks": {
      "15": 112.75,
@@ -14353,12 +14593,13 @@
     "total": 326.93
    },
    {
-    "rank": 120,
-    "prev_rank": 116,
-    "movement": -4,
+    "rank": 89,
+    "prev_rank": 87,
+    "movement": -2,
     "team_key": "sample01:10",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 103.51,
     "weeks": {
      "15": 121.49,
@@ -14368,12 +14609,13 @@
     "total": 324.29
    },
    {
-    "rank": 121,
-    "prev_rank": 80,
-    "movement": -41,
+    "rank": 90,
+    "prev_rank": 64,
+    "movement": -26,
     "team_key": "sample16:11",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 133.49,
     "weeks": {
      "15": 113.43,
@@ -14383,12 +14625,13 @@
     "total": 322.77
    },
    {
-    "rank": 122,
-    "prev_rank": 125,
-    "movement": 3,
+    "rank": 91,
+    "prev_rank": 92,
+    "movement": 1,
     "team_key": "sample16:5",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 128.35,
     "weeks": {
      "15": 84.55,
@@ -14398,27 +14641,13 @@
     "total": 318.97
    },
    {
-    "rank": 123,
-    "prev_rank": 127,
-    "movement": 4,
-    "team_key": "sample20:10",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 125.12,
-    "weeks": {
-     "15": 85.32,
-     "16": 106.94,
-     "17": null
-    },
-    "total": 317.38
-   },
-   {
-    "rank": 124,
-    "prev_rank": 122,
-    "movement": -2,
+    "rank": 92,
+    "prev_rank": 89,
+    "movement": -3,
     "team_key": "sample08:9",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 131.85,
     "weeks": {
      "15": 83.94,
@@ -14428,12 +14657,13 @@
     "total": 315.08
    },
    {
-    "rank": 124,
-    "prev_rank": 109,
-    "movement": -15,
+    "rank": 92,
+    "prev_rank": 82,
+    "movement": -10,
     "team_key": "sample23:6",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 4",
+    "qual_status": "final",
     "carry_avg": 122.9,
     "weeks": {
      "15": 105.99,
@@ -14443,12 +14673,13 @@
     "total": 315.08
    },
    {
-    "rank": 126,
-    "prev_rank": 81,
-    "movement": -45,
+    "rank": 94,
+    "prev_rank": 65,
+    "movement": -29,
     "team_key": "sample21:1",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 125.63,
     "weeks": {
      "15": 120.77,
@@ -14458,12 +14689,13 @@
     "total": 312.61
    },
    {
-    "rank": 127,
-    "prev_rank": 112,
-    "movement": -15,
+    "rank": 95,
+    "prev_rank": 84,
+    "movement": -11,
     "team_key": "sample05:2",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 119.79,
     "weeks": {
      "15": 107.6,
@@ -14473,12 +14705,13 @@
     "total": 309.85
    },
    {
-    "rank": 128,
-    "prev_rank": 130,
-    "movement": 2,
+    "rank": 96,
+    "prev_rank": 94,
+    "movement": -2,
     "team_key": "sample08:12",
     "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
+    "qualified_via": "Wild card (top 15% in points)",
+    "qual_status": "final",
     "carry_avg": 125.28,
     "weeks": {
      "15": 78.27,
@@ -14488,57 +14721,13 @@
     "total": 308.36
    },
    {
-    "rank": 129,
-    "prev_rank": 117,
-    "movement": -12,
-    "team_key": "sample22:6",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 126.35,
-    "weeks": {
-     "15": 98.31,
-     "16": 82.77,
-     "17": null
-    },
-    "total": 307.43
-   },
-   {
-    "rank": 130,
-    "prev_rank": 119,
-    "movement": -11,
-    "team_key": "sample11:4",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 118.92,
-    "weeks": {
-     "15": 105.61,
-     "16": 80.59,
-     "17": null
-    },
-    "total": 305.12
-   },
-   {
-    "rank": 131,
-    "prev_rank": 96,
-    "movement": -35,
-    "team_key": "sample04:5",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 125.66,
-    "weeks": {
-     "15": 110.91,
-     "16": 67.5,
-     "17": null
-    },
-    "total": 304.07
-   },
-   {
-    "rank": 132,
-    "prev_rank": 131,
-    "movement": -1,
+    "rank": 97,
+    "prev_rank": 95,
+    "movement": -2,
     "team_key": "sample03:12",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 3",
+    "qual_status": "final",
     "carry_avg": 118.15,
     "weeks": {
      "15": 78.06,
@@ -14548,27 +14737,13 @@
     "total": 300.66
    },
    {
-    "rank": 133,
-    "prev_rank": 121,
-    "movement": -12,
-    "team_key": "sample12:3",
-    "qual_type": "wild_card",
-    "qualified_via": "Wild card (top points)",
-    "carry_avg": 116.63,
-    "weeks": {
-     "15": 101.54,
-     "16": 60.07,
-     "17": null
-    },
-    "total": 278.24
-   },
-   {
-    "rank": 134,
-    "prev_rank": 133,
+    "rank": 98,
+    "prev_rank": 97,
     "movement": -1,
     "team_key": "sample04:8",
     "qual_type": "division_seed",
     "qualified_via": "Division seed 2",
+    "qual_status": "final",
     "carry_avg": 119.43,
     "weeks": {
      "15": 72.08,
@@ -14590,6 +14765,30 @@
   "standings": [
    {
     "rank": 1,
+    "team_key": "sample10:9",
+    "weeks": {
+     "13": 126.92,
+     "14": 173.9,
+     "15": 158.89,
+     "16": 140.88,
+     "17": null
+    },
+    "total": 600.59
+   },
+   {
+    "rank": 2,
+    "team_key": "sample15:6",
+    "weeks": {
+     "13": 155.9,
+     "14": 151.6,
+     "15": 146.49,
+     "16": 133.91,
+     "17": null
+    },
+    "total": 587.9
+   },
+   {
+    "rank": 3,
     "team_key": "sample22:10",
     "weeks": {
      "13": 167.02,
@@ -14601,7 +14800,19 @@
     "total": 563.33
    },
    {
-    "rank": 2,
+    "rank": 4,
+    "team_key": "sample21:7",
+    "weeks": {
+     "13": 115.17,
+     "14": 147.11,
+     "15": 160.21,
+     "16": 136.04,
+     "17": null
+    },
+    "total": 558.53
+   },
+   {
+    "rank": 5,
     "team_key": "sample06:2",
     "weeks": {
      "13": 125.55,
@@ -14613,7 +14824,19 @@
     "total": 552.9
    },
    {
-    "rank": 3,
+    "rank": 6,
+    "team_key": "sample11:8",
+    "weeks": {
+     "13": 108.24,
+     "14": 138.64,
+     "15": 141.48,
+     "16": 160.38,
+     "17": null
+    },
+    "total": 548.74
+   },
+   {
+    "rank": 7,
     "team_key": "sample12:4",
     "weeks": {
      "13": 135.28,
@@ -14625,7 +14848,7 @@
     "total": 548.73
    },
    {
-    "rank": 4,
+    "rank": 8,
     "team_key": "sample14:9",
     "weeks": {
      "13": 126.02,
@@ -14637,7 +14860,7 @@
     "total": 534.52
    },
    {
-    "rank": 5,
+    "rank": 9,
     "team_key": "sample23:3",
     "weeks": {
      "13": 129.66,
@@ -14649,7 +14872,7 @@
     "total": 526.86
    },
    {
-    "rank": 6,
+    "rank": 10,
     "team_key": "sample03:10",
     "weeks": {
      "13": 137.86,
@@ -14661,7 +14884,19 @@
     "total": 525.99
    },
    {
-    "rank": 7,
+    "rank": 11,
+    "team_key": "sample17:12",
+    "weeks": {
+     "13": 135.21,
+     "14": 150.53,
+     "15": 131.03,
+     "16": 107.9,
+     "17": null
+    },
+    "total": 524.67
+   },
+   {
+    "rank": 12,
     "team_key": "sample04:4",
     "weeks": {
      "13": 139.9,
@@ -14673,7 +14908,7 @@
     "total": 519.59
    },
    {
-    "rank": 8,
+    "rank": 13,
     "team_key": "sample13:6",
     "weeks": {
      "13": 142.63,
@@ -14685,7 +14920,31 @@
     "total": 516.63
    },
    {
-    "rank": 9,
+    "rank": 14,
+    "team_key": "sample13:11",
+    "weeks": {
+     "13": 113.87,
+     "14": 147.66,
+     "15": 116.07,
+     "16": 138.1,
+     "17": null
+    },
+    "total": 515.7
+   },
+   {
+    "rank": 15,
+    "team_key": "sample05:3",
+    "weeks": {
+     "13": 149.2,
+     "14": 136.4,
+     "15": 128.31,
+     "16": 99.39,
+     "17": null
+    },
+    "total": 513.3
+   },
+   {
+    "rank": 16,
     "team_key": "sample09:1",
     "weeks": {
      "13": 141.33,
@@ -14697,7 +14956,7 @@
     "total": 511.49
    },
    {
-    "rank": 10,
+    "rank": 17,
     "team_key": "sample17:7",
     "weeks": {
      "13": 113.51,
@@ -14709,7 +14968,7 @@
     "total": 511.13
    },
    {
-    "rank": 11,
+    "rank": 18,
     "team_key": "sample19:7",
     "weeks": {
      "13": 137.71,
@@ -14721,7 +14980,7 @@
     "total": 506.75
    },
    {
-    "rank": 12,
+    "rank": 19,
     "team_key": "sample17:10",
     "weeks": {
      "13": 122.83,
@@ -14733,7 +14992,7 @@
     "total": 504.97
    },
    {
-    "rank": 13,
+    "rank": 20,
     "team_key": "sample22:2",
     "weeks": {
      "13": 93.0,
@@ -14745,7 +15004,19 @@
     "total": 504.93
    },
    {
-    "rank": 14,
+    "rank": 21,
+    "team_key": "sample12:1",
+    "weeks": {
+     "13": 106.76,
+     "14": 102.78,
+     "15": 168.71,
+     "16": 126.62,
+     "17": null
+    },
+    "total": 504.87
+   },
+   {
+    "rank": 22,
     "team_key": "sample09:3",
     "weeks": {
      "13": 108.16,
@@ -14757,7 +15028,7 @@
     "total": 501.35
    },
    {
-    "rank": 15,
+    "rank": 23,
     "team_key": "sample14:4",
     "weeks": {
      "13": 118.04,
@@ -14769,7 +15040,55 @@
     "total": 500.53
    },
    {
-    "rank": 16,
+    "rank": 24,
+    "team_key": "sample07:8",
+    "weeks": {
+     "13": 141.17,
+     "14": 114.09,
+     "15": 132.66,
+     "16": 111.44,
+     "17": null
+    },
+    "total": 499.36
+   },
+   {
+    "rank": 25,
+    "team_key": "sample23:12",
+    "weeks": {
+     "13": 118.17,
+     "14": 148.78,
+     "15": 119.26,
+     "16": 110.23,
+     "17": null
+    },
+    "total": 496.44
+   },
+   {
+    "rank": 26,
+    "team_key": "sample07:6",
+    "weeks": {
+     "13": 142.21,
+     "14": 136.82,
+     "15": 115.28,
+     "16": 98.87,
+     "17": null
+    },
+    "total": 493.18
+   },
+   {
+    "rank": 27,
+    "team_key": "sample16:4",
+    "weeks": {
+     "13": 103.8,
+     "14": 133.66,
+     "15": 150.75,
+     "16": 102.5,
+     "17": null
+    },
+    "total": 490.71
+   },
+   {
+    "rank": 28,
     "team_key": "sample11:1",
     "weeks": {
      "13": 110.0,
@@ -14781,7 +15100,7 @@
     "total": 490.19
    },
    {
-    "rank": 17,
+    "rank": 29,
     "team_key": "sample11:5",
     "weeks": {
      "13": 131.39,
@@ -14793,7 +15112,7 @@
     "total": 489.77
    },
    {
-    "rank": 18,
+    "rank": 30,
     "team_key": "sample22:9",
     "weeks": {
      "13": 138.36,
@@ -14805,7 +15124,7 @@
     "total": 487.35
    },
    {
-    "rank": 19,
+    "rank": 31,
     "team_key": "sample10:8",
     "weeks": {
      "13": 117.54,
@@ -14817,7 +15136,7 @@
     "total": 482.26
    },
    {
-    "rank": 20,
+    "rank": 32,
     "team_key": "sample07:1",
     "weeks": {
      "13": 99.88,
@@ -14829,7 +15148,19 @@
     "total": 479.46
    },
    {
-    "rank": 21,
+    "rank": 33,
+    "team_key": "sample04:6",
+    "weeks": {
+     "13": 127.23,
+     "14": 134.45,
+     "15": 110.56,
+     "16": 106.73,
+     "17": null
+    },
+    "total": 478.97
+   },
+   {
+    "rank": 34,
     "team_key": "sample08:3",
     "weeks": {
      "13": 130.58,
@@ -14841,7 +15172,7 @@
     "total": 477.13
    },
    {
-    "rank": 22,
+    "rank": 35,
     "team_key": "sample06:8",
     "weeks": {
      "13": 125.19,
@@ -14853,7 +15184,19 @@
     "total": 476.66
    },
    {
-    "rank": 23,
+    "rank": 36,
+    "team_key": "sample08:4",
+    "weeks": {
+     "13": 113.27,
+     "14": 156.36,
+     "15": 122.86,
+     "16": 83.88,
+     "17": null
+    },
+    "total": 476.37
+   },
+   {
+    "rank": 37,
     "team_key": "sample02:6",
     "weeks": {
      "13": 106.97,
@@ -14865,7 +15208,7 @@
     "total": 472.98
    },
    {
-    "rank": 24,
+    "rank": 38,
     "team_key": "sample01:11",
     "weeks": {
      "13": 143.01,
@@ -14877,7 +15220,7 @@
     "total": 472.86
    },
    {
-    "rank": 25,
+    "rank": 39,
     "team_key": "sample01:6",
     "weeks": {
      "13": 134.06,
@@ -14889,7 +15232,31 @@
     "total": 469.82
    },
    {
-    "rank": 26,
+    "rank": 40,
+    "team_key": "sample13:5",
+    "weeks": {
+     "13": 131.07,
+     "14": 99.39,
+     "15": 107.53,
+     "16": 128.24,
+     "17": null
+    },
+    "total": 466.23
+   },
+   {
+    "rank": 41,
+    "team_key": "sample02:12",
+    "weeks": {
+     "13": 146.5,
+     "14": 101.26,
+     "15": 94.9,
+     "16": 120.36,
+     "17": null
+    },
+    "total": 463.02
+   },
+   {
+    "rank": 42,
     "team_key": "sample15:3",
     "weeks": {
      "13": 142.08,
@@ -14901,7 +15268,7 @@
     "total": 462.9
    },
    {
-    "rank": 27,
+    "rank": 43,
     "team_key": "sample03:1",
     "weeks": {
      "13": 98.81,
@@ -14913,7 +15280,19 @@
     "total": 455.15
    },
    {
-    "rank": 28,
+    "rank": 44,
+    "team_key": "sample09:6",
+    "weeks": {
+     "13": 116.71,
+     "14": 119.92,
+     "15": 108.56,
+     "16": 109.63,
+     "17": null
+    },
+    "total": 454.82
+   },
+   {
+    "rank": 44,
     "team_key": "sample16:12",
     "weeks": {
      "13": 164.42,
@@ -14925,7 +15304,19 @@
     "total": 454.82
    },
    {
-    "rank": 29,
+    "rank": 46,
+    "team_key": "sample16:7",
+    "weeks": {
+     "13": 131.42,
+     "14": 109.78,
+     "15": 126.57,
+     "16": 82.43,
+     "17": null
+    },
+    "total": 450.2
+   },
+   {
+    "rank": 47,
     "team_key": "sample18:1",
     "weeks": {
      "13": 145.7,
@@ -14937,7 +15328,7 @@
     "total": 448.36
    },
    {
-    "rank": 30,
+    "rank": 48,
     "team_key": "sample23:8",
     "weeks": {
      "13": 127.42,
@@ -14949,7 +15340,7 @@
     "total": 445.24
    },
    {
-    "rank": 31,
+    "rank": 49,
     "team_key": "sample01:7",
     "weeks": {
      "13": 132.61,
@@ -14961,7 +15352,7 @@
     "total": 443.65
    },
    {
-    "rank": 32,
+    "rank": 50,
     "team_key": "sample10:2",
     "weeks": {
      "13": 108.39,
@@ -14973,7 +15364,19 @@
     "total": 442.13
    },
    {
-    "rank": 33,
+    "rank": 51,
+    "team_key": "sample18:11",
+    "weeks": {
+     "13": 124.59,
+     "14": 100.99,
+     "15": 141.41,
+     "16": 72.48,
+     "17": null
+    },
+    "total": 439.47
+   },
+   {
+    "rank": 52,
     "team_key": "sample19:3",
     "weeks": {
      "13": 92.41,
@@ -14985,7 +15388,7 @@
     "total": 438.18
    },
    {
-    "rank": 34,
+    "rank": 53,
     "team_key": "sample05:7",
     "weeks": {
      "13": 98.79,
@@ -14997,7 +15400,7 @@
     "total": 433.88
    },
    {
-    "rank": 35,
+    "rank": 54,
     "team_key": "sample19:6",
     "weeks": {
      "13": 90.15,
@@ -15009,7 +15412,7 @@
     "total": 430.54
    },
    {
-    "rank": 36,
+    "rank": 55,
     "team_key": "sample03:9",
     "weeks": {
      "13": 103.19,
@@ -15021,7 +15424,19 @@
     "total": 430.27
    },
    {
-    "rank": 37,
+    "rank": 56,
+    "team_key": "sample20:9",
+    "weeks": {
+     "13": 123.16,
+     "14": 84.06,
+     "15": 83.59,
+     "16": 137.42,
+     "17": null
+    },
+    "total": 428.23
+   },
+   {
+    "rank": 57,
     "team_key": "sample22:5",
     "weeks": {
      "13": 116.84,
@@ -15033,7 +15448,7 @@
     "total": 427.39
    },
    {
-    "rank": 38,
+    "rank": 58,
     "team_key": "sample21:4",
     "weeks": {
      "13": 93.47,
@@ -15045,7 +15460,7 @@
     "total": 424.97
    },
    {
-    "rank": 39,
+    "rank": 59,
     "team_key": "sample11:11",
     "weeks": {
      "13": 89.01,
@@ -15057,7 +15472,19 @@
     "total": 415.84
    },
    {
-    "rank": 40,
+    "rank": 60,
+    "team_key": "sample22:6",
+    "weeks": {
+     "13": 126.86,
+     "14": 100.43,
+     "15": 98.31,
+     "16": 82.77,
+     "17": null
+    },
+    "total": 408.37
+   },
+   {
+    "rank": 61,
     "team_key": "sample09:8",
     "weeks": {
      "13": 81.21,
@@ -15069,7 +15496,19 @@
     "total": 407.74
    },
    {
-    "rank": 41,
+    "rank": 62,
+    "team_key": "sample11:4",
+    "weeks": {
+     "13": 120.53,
+     "14": 100.11,
+     "15": 105.61,
+     "16": 80.59,
+     "17": null
+    },
+    "total": 406.84
+   },
+   {
+    "rank": 63,
     "team_key": "sample06:4",
     "weeks": {
      "13": 84.05,
@@ -15081,7 +15520,19 @@
     "total": 402.76
    },
    {
-    "rank": 42,
+    "rank": 64,
+    "team_key": "sample20:3",
+    "weeks": {
+     "13": 72.24,
+     "14": 108.18,
+     "15": 108.54,
+     "16": 111.32,
+     "17": null
+    },
+    "total": 400.28
+   },
+   {
+    "rank": 65,
     "team_key": "sample21:12",
     "weeks": {
      "13": 92.62,
@@ -15093,7 +15544,7 @@
     "total": 395.32
    },
    {
-    "rank": 43,
+    "rank": 66,
     "team_key": "sample02:3",
     "weeks": {
      "13": 102.86,
@@ -15105,7 +15556,7 @@
     "total": 394.45
    },
    {
-    "rank": 44,
+    "rank": 67,
     "team_key": "sample13:8",
     "weeks": {
      "13": 85.95,
@@ -15117,7 +15568,7 @@
     "total": 391.8
    },
    {
-    "rank": 45,
+    "rank": 68,
     "team_key": "sample04:1",
     "weeks": {
      "13": 66.26,
@@ -15129,7 +15580,7 @@
     "total": 389.16
    },
    {
-    "rank": 46,
+    "rank": 69,
     "team_key": "sample19:11",
     "weeks": {
      "13": 61.22,
@@ -15141,7 +15592,7 @@
     "total": 385.03
    },
    {
-    "rank": 47,
+    "rank": 70,
     "team_key": "sample05:1",
     "weeks": {
      "13": 57.35,
@@ -15153,7 +15604,7 @@
     "total": 384.83
    },
    {
-    "rank": 48,
+    "rank": 71,
     "team_key": "sample06:7",
     "weeks": {
      "13": 62.0,
@@ -15163,6 +15614,18 @@
      "17": null
     },
     "total": 380.93
+   },
+   {
+    "rank": 72,
+    "team_key": "sample12:3",
+    "weeks": {
+     "13": 97.39,
+     "14": 96.17,
+     "15": 101.54,
+     "16": 60.07,
+     "17": null
+    },
+    "total": 355.17
    }
   ]
  },
@@ -15213,6 +15676,18 @@
    },
    {
     "rank": 4,
+    "team_key": "sample02:8",
+    "weeks": {
+     "13": 110.49,
+     "14": 143.67,
+     "15": 140.16,
+     "16": 150.45,
+     "17": null
+    },
+    "total": 544.77
+   },
+   {
+    "rank": 5,
     "team_key": "sample12:10",
     "weeks": {
      "13": 141.46,
@@ -15224,7 +15699,7 @@
     "total": 541.07
    },
    {
-    "rank": 5,
+    "rank": 6,
     "team_key": "sample09:11",
     "weeks": {
      "13": 154.25,
@@ -15236,7 +15711,19 @@
     "total": 539.35
    },
    {
-    "rank": 6,
+    "rank": 7,
+    "team_key": "sample09:10",
+    "weeks": {
+     "13": 168.62,
+     "14": 109.48,
+     "15": 118.08,
+     "16": 142.71,
+     "17": null
+    },
+    "total": 538.89
+   },
+   {
+    "rank": 8,
     "team_key": "sample06:1",
     "weeks": {
      "13": 137.82,
@@ -15248,7 +15735,7 @@
     "total": 530.45
    },
    {
-    "rank": 7,
+    "rank": 9,
     "team_key": "sample02:5",
     "weeks": {
      "13": 118.7,
@@ -15260,7 +15747,7 @@
     "total": 530.29
    },
    {
-    "rank": 8,
+    "rank": 10,
     "team_key": "sample22:3",
     "weeks": {
      "13": 126.89,
@@ -15272,7 +15759,7 @@
     "total": 528.14
    },
    {
-    "rank": 9,
+    "rank": 11,
     "team_key": "sample01:9",
     "weeks": {
      "13": 110.41,
@@ -15284,7 +15771,7 @@
     "total": 527.39
    },
    {
-    "rank": 10,
+    "rank": 12,
     "team_key": "sample16:1",
     "weeks": {
      "13": 131.99,
@@ -15296,7 +15783,19 @@
     "total": 520.44
    },
    {
-    "rank": 11,
+    "rank": 13,
+    "team_key": "sample14:10",
+    "weeks": {
+     "13": 118.4,
+     "14": 128.39,
+     "15": 162.99,
+     "16": 101.44,
+     "17": null
+    },
+    "total": 511.22
+   },
+   {
+    "rank": 14,
     "team_key": "sample11:9",
     "weeks": {
      "13": 103.38,
@@ -15308,7 +15807,7 @@
     "total": 508.24
    },
    {
-    "rank": 12,
+    "rank": 15,
     "team_key": "sample12:11",
     "weeks": {
      "13": 119.95,
@@ -15320,7 +15819,7 @@
     "total": 504.91
    },
    {
-    "rank": 13,
+    "rank": 16,
     "team_key": "sample13:10",
     "weeks": {
      "13": 113.9,
@@ -15332,7 +15831,31 @@
     "total": 503.76
    },
    {
-    "rank": 14,
+    "rank": 17,
+    "team_key": "sample23:2",
+    "weeks": {
+     "13": 93.43,
+     "14": 128.66,
+     "15": 144.3,
+     "16": 135.96,
+     "17": null
+    },
+    "total": 502.35
+   },
+   {
+    "rank": 18,
+    "team_key": "sample07:3",
+    "weeks": {
+     "13": 139.59,
+     "14": 138.56,
+     "15": 102.61,
+     "16": 119.66,
+     "17": null
+    },
+    "total": 500.42
+   },
+   {
+    "rank": 19,
     "team_key": "sample11:10",
     "weeks": {
      "13": 120.69,
@@ -15344,7 +15867,7 @@
     "total": 498.67
    },
    {
-    "rank": 15,
+    "rank": 20,
     "team_key": "sample19:1",
     "weeks": {
      "13": 106.85,
@@ -15356,7 +15879,19 @@
     "total": 493.49
    },
    {
-    "rank": 16,
+    "rank": 21,
+    "team_key": "sample23:5",
+    "weeks": {
+     "13": 138.08,
+     "14": 123.53,
+     "15": 157.77,
+     "16": 69.97,
+     "17": null
+    },
+    "total": 489.35
+   },
+   {
+    "rank": 22,
     "team_key": "sample10:10",
     "weeks": {
      "13": 126.02,
@@ -15368,7 +15903,7 @@
     "total": 488.58
    },
    {
-    "rank": 17,
+    "rank": 23,
     "team_key": "sample12:12",
     "weeks": {
      "13": 126.43,
@@ -15380,7 +15915,7 @@
     "total": 487.77
    },
    {
-    "rank": 18,
+    "rank": 24,
     "team_key": "sample16:2",
     "weeks": {
      "13": 101.76,
@@ -15392,7 +15927,7 @@
     "total": 486.14
    },
    {
-    "rank": 19,
+    "rank": 25,
     "team_key": "sample03:6",
     "weeks": {
      "13": 133.53,
@@ -15404,7 +15939,7 @@
     "total": 484.73
    },
    {
-    "rank": 20,
+    "rank": 26,
     "team_key": "sample17:9",
     "weeks": {
      "13": 115.49,
@@ -15416,7 +15951,7 @@
     "total": 484.64
    },
    {
-    "rank": 21,
+    "rank": 27,
     "team_key": "sample14:1",
     "weeks": {
      "13": 94.87,
@@ -15428,7 +15963,7 @@
     "total": 484.4
    },
    {
-    "rank": 22,
+    "rank": 28,
     "team_key": "sample04:10",
     "weeks": {
      "13": 120.03,
@@ -15440,7 +15975,7 @@
     "total": 484.11
    },
    {
-    "rank": 23,
+    "rank": 29,
     "team_key": "sample05:10",
     "weeks": {
      "13": 126.9,
@@ -15452,7 +15987,7 @@
     "total": 483.93
    },
    {
-    "rank": 24,
+    "rank": 30,
     "team_key": "sample15:10",
     "weeks": {
      "13": 160.58,
@@ -15464,7 +15999,7 @@
     "total": 483.46
    },
    {
-    "rank": 25,
+    "rank": 31,
     "team_key": "sample20:2",
     "weeks": {
      "13": 138.97,
@@ -15476,7 +16011,7 @@
     "total": 482.43
    },
    {
-    "rank": 26,
+    "rank": 32,
     "team_key": "sample04:11",
     "weeks": {
      "13": 108.06,
@@ -15488,7 +16023,7 @@
     "total": 479.37
    },
    {
-    "rank": 27,
+    "rank": 33,
     "team_key": "sample17:3",
     "weeks": {
      "13": 105.64,
@@ -15500,7 +16035,7 @@
     "total": 479.14
    },
    {
-    "rank": 28,
+    "rank": 34,
     "team_key": "sample08:6",
     "weeks": {
      "13": 116.12,
@@ -15512,7 +16047,7 @@
     "total": 478.38
    },
    {
-    "rank": 29,
+    "rank": 35,
     "team_key": "sample16:10",
     "weeks": {
      "13": 115.47,
@@ -15524,7 +16059,7 @@
     "total": 478.05
    },
    {
-    "rank": 30,
+    "rank": 36,
     "team_key": "sample21:3",
     "weeks": {
      "13": 154.28,
@@ -15536,7 +16071,7 @@
     "total": 477.99
    },
    {
-    "rank": 31,
+    "rank": 37,
     "team_key": "sample08:10",
     "weeks": {
      "13": 123.05,
@@ -15548,7 +16083,7 @@
     "total": 477.31
    },
    {
-    "rank": 32,
+    "rank": 38,
     "team_key": "sample18:4",
     "weeks": {
      "13": 108.0,
@@ -15560,7 +16095,7 @@
     "total": 473.55
    },
    {
-    "rank": 33,
+    "rank": 39,
     "team_key": "sample19:9",
     "weeks": {
      "13": 131.42,
@@ -15572,7 +16107,19 @@
     "total": 472.77
    },
    {
-    "rank": 34,
+    "rank": 40,
+    "team_key": "sample04:5",
+    "weeks": {
+     "13": 191.41,
+     "14": 100.22,
+     "15": 110.91,
+     "16": 67.5,
+     "17": null
+    },
+    "total": 470.04
+   },
+   {
+    "rank": 41,
     "team_key": "sample03:4",
     "weeks": {
      "13": 132.33,
@@ -15584,7 +16131,7 @@
     "total": 469.87
    },
    {
-    "rank": 35,
+    "rank": 42,
     "team_key": "sample07:11",
     "weeks": {
      "13": 94.28,
@@ -15596,7 +16143,7 @@
     "total": 467.92
    },
    {
-    "rank": 36,
+    "rank": 43,
     "team_key": "sample18:8",
     "weeks": {
      "13": 143.91,
@@ -15608,7 +16155,19 @@
     "total": 467.75
    },
    {
-    "rank": 37,
+    "rank": 44,
+    "team_key": "sample02:2",
+    "weeks": {
+     "13": 141.35,
+     "14": 104.54,
+     "15": 117.74,
+     "16": 103.73,
+     "17": null
+    },
+    "total": 467.36
+   },
+   {
+    "rank": 45,
     "team_key": "sample03:8",
     "weeks": {
      "13": 101.23,
@@ -15620,7 +16179,7 @@
     "total": 466.23
    },
    {
-    "rank": 38,
+    "rank": 46,
     "team_key": "sample14:5",
     "weeks": {
      "13": 118.92,
@@ -15632,7 +16191,7 @@
     "total": 465.97
    },
    {
-    "rank": 39,
+    "rank": 47,
     "team_key": "sample10:12",
     "weeks": {
      "13": 79.21,
@@ -15644,7 +16203,19 @@
     "total": 464.99
    },
    {
-    "rank": 40,
+    "rank": 48,
+    "team_key": "sample02:11",
+    "weeks": {
+     "13": 72.47,
+     "14": 134.32,
+     "15": 107.63,
+     "16": 147.28,
+     "17": null
+    },
+    "total": 461.7
+   },
+   {
+    "rank": 49,
     "team_key": "sample18:5",
     "weeks": {
      "13": 149.37,
@@ -15656,7 +16227,19 @@
     "total": 461.63
    },
    {
-    "rank": 41,
+    "rank": 50,
+    "team_key": "sample20:10",
+    "weeks": {
+     "13": 126.55,
+     "14": 142.32,
+     "15": 85.32,
+     "16": 106.94,
+     "17": null
+    },
+    "total": 461.13
+   },
+   {
+    "rank": 51,
     "team_key": "sample07:12",
     "weeks": {
      "13": 114.87,
@@ -15668,7 +16251,7 @@
     "total": 460.76
    },
    {
-    "rank": 42,
+    "rank": 52,
     "team_key": "sample08:2",
     "weeks": {
      "13": 79.12,
@@ -15680,7 +16263,7 @@
     "total": 458.74
    },
    {
-    "rank": 43,
+    "rank": 53,
     "team_key": "sample13:7",
     "weeks": {
      "13": 117.37,
@@ -15692,7 +16275,7 @@
     "total": 455.42
    },
    {
-    "rank": 44,
+    "rank": 54,
     "team_key": "sample18:7",
     "weeks": {
      "13": 98.15,
@@ -15704,7 +16287,19 @@
     "total": 452.56
    },
    {
-    "rank": 45,
+    "rank": 55,
+    "team_key": "sample17:5",
+    "weeks": {
+     "13": 141.68,
+     "14": 93.91,
+     "15": 88.42,
+     "16": 126.93,
+     "17": null
+    },
+    "total": 450.94
+   },
+   {
+    "rank": 56,
     "team_key": "sample13:9",
     "weeks": {
      "13": 128.91,
@@ -15716,7 +16311,7 @@
     "total": 450.7
    },
    {
-    "rank": 46,
+    "rank": 57,
     "team_key": "sample01:8",
     "weeks": {
      "13": 121.54,
@@ -15728,7 +16323,7 @@
     "total": 449.24
    },
    {
-    "rank": 47,
+    "rank": 58,
     "team_key": "sample20:8",
     "weeks": {
      "13": 119.37,
@@ -15740,7 +16335,7 @@
     "total": 448.53
    },
    {
-    "rank": 48,
+    "rank": 59,
     "team_key": "sample23:10",
     "weeks": {
      "13": 148.29,
@@ -15752,7 +16347,7 @@
     "total": 447.59
    },
    {
-    "rank": 49,
+    "rank": 60,
     "team_key": "sample16:8",
     "weeks": {
      "13": 131.76,
@@ -15764,7 +16359,7 @@
     "total": 446.35
    },
    {
-    "rank": 50,
+    "rank": 61,
     "team_key": "sample14:11",
     "weeks": {
      "13": 104.03,
@@ -15776,7 +16371,7 @@
     "total": 445.0
    },
    {
-    "rank": 51,
+    "rank": 62,
     "team_key": "sample04:12",
     "weeks": {
      "13": 116.15,
@@ -15788,7 +16383,7 @@
     "total": 443.63
    },
    {
-    "rank": 52,
+    "rank": 63,
     "team_key": "sample22:4",
     "weeks": {
      "13": 115.63,
@@ -15800,7 +16395,7 @@
     "total": 442.44
    },
    {
-    "rank": 53,
+    "rank": 64,
     "team_key": "sample21:2",
     "weeks": {
      "13": 121.55,
@@ -15812,7 +16407,7 @@
     "total": 441.66
    },
    {
-    "rank": 54,
+    "rank": 65,
     "team_key": "sample23:11",
     "weeks": {
      "13": 121.07,
@@ -15824,7 +16419,7 @@
     "total": 439.18
    },
    {
-    "rank": 55,
+    "rank": 66,
     "team_key": "sample10:1",
     "weeks": {
      "13": 100.33,
@@ -15836,7 +16431,7 @@
     "total": 438.58
    },
    {
-    "rank": 56,
+    "rank": 67,
     "team_key": "sample06:9",
     "weeks": {
      "13": 77.47,
@@ -15848,7 +16443,7 @@
     "total": 438.36
    },
    {
-    "rank": 57,
+    "rank": 68,
     "team_key": "sample05:4",
     "weeks": {
      "13": 67.36,
@@ -15860,7 +16455,7 @@
     "total": 437.06
    },
    {
-    "rank": 58,
+    "rank": 69,
     "team_key": "sample19:12",
     "weeks": {
      "13": 105.57,
@@ -15872,7 +16467,19 @@
     "total": 436.4
    },
    {
-    "rank": 59,
+    "rank": 70,
+    "team_key": "sample21:8",
+    "weeks": {
+     "13": 93.18,
+     "14": 112.55,
+     "15": 111.67,
+     "16": 117.49,
+     "17": null
+    },
+    "total": 434.89
+   },
+   {
+    "rank": 71,
     "team_key": "sample13:3",
     "weeks": {
      "13": 118.59,
@@ -15884,7 +16491,7 @@
     "total": 434.54
    },
    {
-    "rank": 60,
+    "rank": 72,
     "team_key": "sample12:6",
     "weeks": {
      "13": 137.51,
@@ -15896,7 +16503,7 @@
     "total": 433.44
    },
    {
-    "rank": 61,
+    "rank": 73,
     "team_key": "sample05:8",
     "weeks": {
      "13": 119.35,
@@ -15908,7 +16515,7 @@
     "total": 431.82
    },
    {
-    "rank": 62,
+    "rank": 74,
     "team_key": "sample15:2",
     "weeks": {
      "13": 78.32,
@@ -15920,7 +16527,7 @@
     "total": 427.17
    },
    {
-    "rank": 63,
+    "rank": 75,
     "team_key": "sample10:3",
     "weeks": {
      "13": 127.95,
@@ -15932,7 +16539,7 @@
     "total": 426.58
    },
    {
-    "rank": 64,
+    "rank": 76,
     "team_key": "sample02:1",
     "weeks": {
      "13": 120.92,
@@ -15944,7 +16551,7 @@
     "total": 425.09
    },
    {
-    "rank": 65,
+    "rank": 77,
     "team_key": "sample19:2",
     "weeks": {
      "13": 102.28,
@@ -15956,7 +16563,7 @@
     "total": 424.03
    },
    {
-    "rank": 65,
+    "rank": 77,
     "team_key": "sample15:11",
     "weeks": {
      "13": 113.69,
@@ -15968,7 +16575,7 @@
     "total": 424.03
    },
    {
-    "rank": 67,
+    "rank": 79,
     "team_key": "sample04:2",
     "weeks": {
      "13": 121.29,
@@ -15980,7 +16587,7 @@
     "total": 423.76
    },
    {
-    "rank": 68,
+    "rank": 80,
     "team_key": "sample07:2",
     "weeks": {
      "13": 106.47,
@@ -15992,7 +16599,7 @@
     "total": 419.65
    },
    {
-    "rank": 69,
+    "rank": 81,
     "team_key": "sample01:4",
     "weeks": {
      "13": 69.41,
@@ -16004,7 +16611,7 @@
     "total": 416.11
    },
    {
-    "rank": 70,
+    "rank": 82,
     "team_key": "sample01:3",
     "weeks": {
      "13": 107.7,
@@ -16016,7 +16623,7 @@
     "total": 413.32
    },
    {
-    "rank": 71,
+    "rank": 83,
     "team_key": "sample06:5",
     "weeks": {
      "13": 119.15,
@@ -16028,7 +16635,7 @@
     "total": 411.11
    },
    {
-    "rank": 72,
+    "rank": 84,
     "team_key": "sample11:3",
     "weeks": {
      "13": 115.23,
@@ -16040,7 +16647,7 @@
     "total": 406.95
    },
    {
-    "rank": 73,
+    "rank": 85,
     "team_key": "sample09:5",
     "weeks": {
      "13": 105.53,
@@ -16052,7 +16659,7 @@
     "total": 405.75
    },
    {
-    "rank": 74,
+    "rank": 86,
     "team_key": "sample21:11",
     "weeks": {
      "13": 123.04,
@@ -16064,7 +16671,7 @@
     "total": 399.44
    },
    {
-    "rank": 75,
+    "rank": 87,
     "team_key": "sample08:8",
     "weeks": {
      "13": 109.29,
@@ -16076,7 +16683,7 @@
     "total": 398.92
    },
    {
-    "rank": 76,
+    "rank": 88,
     "team_key": "sample16:6",
     "weeks": {
      "13": 106.85,
@@ -16088,7 +16695,7 @@
     "total": 395.42
    },
    {
-    "rank": 77,
+    "rank": 89,
     "team_key": "sample21:6",
     "weeks": {
      "13": 103.51,
@@ -16100,7 +16707,7 @@
     "total": 392.86
    },
    {
-    "rank": 78,
+    "rank": 90,
     "team_key": "sample05:5",
     "weeks": {
      "13": 70.11,
@@ -16112,7 +16719,7 @@
     "total": 391.56
    },
    {
-    "rank": 79,
+    "rank": 91,
     "team_key": "sample06:11",
     "weeks": {
      "13": 111.29,
@@ -16124,7 +16731,7 @@
     "total": 390.67
    },
    {
-    "rank": 80,
+    "rank": 92,
     "team_key": "sample10:6",
     "weeks": {
      "13": 109.82,
@@ -16136,7 +16743,7 @@
     "total": 390.58
    },
    {
-    "rank": 81,
+    "rank": 93,
     "team_key": "sample03:3",
     "weeks": {
      "13": 72.1,
@@ -16148,7 +16755,7 @@
     "total": 389.68
    },
    {
-    "rank": 82,
+    "rank": 94,
     "team_key": "sample09:9",
     "weeks": {
      "13": 99.15,
@@ -16160,7 +16767,7 @@
     "total": 388.15
    },
    {
-    "rank": 83,
+    "rank": 95,
     "team_key": "sample22:7",
     "weeks": {
      "13": 115.1,
@@ -16172,7 +16779,7 @@
     "total": 383.32
    },
    {
-    "rank": 84,
+    "rank": 96,
     "team_key": "sample08:11",
     "weeks": {
      "13": 81.85,
@@ -16184,7 +16791,7 @@
     "total": 380.74
    },
    {
-    "rank": 85,
+    "rank": 97,
     "team_key": "sample20:1",
     "weeks": {
      "13": 69.51,
@@ -16196,7 +16803,7 @@
     "total": 380.33
    },
    {
-    "rank": 86,
+    "rank": 98,
     "team_key": "sample12:8",
     "weeks": {
      "13": 82.9,
@@ -16208,7 +16815,7 @@
     "total": 378.51
    },
    {
-    "rank": 87,
+    "rank": 99,
     "team_key": "sample01:12",
     "weeks": {
      "13": 68.5,
@@ -16220,7 +16827,7 @@
     "total": 363.46
    },
    {
-    "rank": 88,
+    "rank": 100,
     "team_key": "sample05:11",
     "weeks": {
      "13": 124.34,
@@ -16232,7 +16839,7 @@
     "total": 361.48
    },
    {
-    "rank": 89,
+    "rank": 101,
     "team_key": "sample17:6",
     "weeks": {
      "13": 103.54,
@@ -16244,7 +16851,7 @@
     "total": 357.68
    },
    {
-    "rank": 90,
+    "rank": 102,
     "team_key": "sample03:5",
     "weeks": {
      "13": 99.6,
@@ -16256,7 +16863,7 @@
     "total": 357.14
    },
    {
-    "rank": 91,
+    "rank": 103,
     "team_key": "sample07:10",
     "weeks": {
      "13": 84.29,
@@ -16268,7 +16875,7 @@
     "total": 351.73
    },
    {
-    "rank": 92,
+    "rank": 104,
     "team_key": "sample17:4",
     "weeks": {
      "13": 99.17,
@@ -16280,7 +16887,7 @@
     "total": 350.24
    },
    {
-    "rank": 93,
+    "rank": 105,
     "team_key": "sample15:4",
     "weeks": {
      "13": 104.32,
@@ -16292,7 +16899,7 @@
     "total": 347.33
    },
    {
-    "rank": 94,
+    "rank": 106,
     "team_key": "sample14:8",
     "weeks": {
      "13": 55.0,
