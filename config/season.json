@@ -1,6 +1,6 @@
 {
   "_READ_ME": "SBFFC leaderboard settings. Every setting is explained in docs/SETTINGS.md. Only change the values after the colons; keep the quotes, commas and brackets exactly as they are. Lines starting with _ are notes and are ignored.",
-  "season": 2026,
+  "season": 2027,
   "title": "SBFFC Championship",
   "_sample_mode": "true = show the made-up sample season (the page says SAMPLE DATA). Change to false once all 23 Sleeper league IDs below are filled in.",
   "sample_mode": true,
