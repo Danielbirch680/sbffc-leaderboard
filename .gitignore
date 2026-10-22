@@ -1,0 +1,19 @@
+# build output (published by GitHub Actions, never committed)
+_site/
+out/
+# local Sleeper response cache (src/build.py --cache)
+.cache/
+cache/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# screenshots from tools/screenshot.py
+preview/
+# editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

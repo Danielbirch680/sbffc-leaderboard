@@ -1,0 +1,75 @@
+# Builds the SBFFC leaderboard and publishes it with GitHub Pages.
+#
+# One-time setup (repo owner): Settings > Pages > Build and deployment > Source: "GitHub Actions".
+# No secrets are needed: Sleeper's API is public and read-only.
+#
+# Each run: run the rule tests -> build the site from config/season.json -> deploy to Pages.
+# In live mode a run makes ~460 Sleeper requests (23 divisions x 20), throttled to <= 750/min
+# (Sleeper asks for < 1000/min). Only one run happens at a time (see "concurrency").
+#
+# Run it by hand any time: Actions tab > "Update SBFFC leaderboard" > Run workflow.
+name: Update SBFFC leaderboard
+
+on:
+  push:
+    branches: [main]          # any change to the repo (e.g. editing config/season.json) rebuilds the page
+  workflow_dispatch: {}       # the "Run workflow" button
+  schedule:
+    # ---------------------------------------------------------------------------------------------
+    # ALL TIMES ARE UTC. Eastern = UTC-4 until early November, then UTC-5 (Central is one hour less).
+    # GitHub may start scheduled runs a few minutes late, and skips some when it is busy.
+    # Format: "minute hour day-of-month month day-of-week"  (day-of-week: 0=Sun, 1=Mon ... 6=Sat)
+    # To change: edit these lines in the GitHub web editor and commit. Delete a line to stop it.
+    # ---------------------------------------------------------------------------------------------
+    - cron: "*/15 17-23 * * 0"   # Sunday games: every 15 min, Sun 17:00-23:59 UTC (1 pm-8 pm ET in Sept/Oct)
+    - cron: "*/15 0-5 * * 1"     # Sunday night game: every 15 min, Mon 00:00-05:59 UTC (Sun 8 pm-1 am ET)
+    - cron: "*/15 0-5 * * 2"     # Monday night game: every 15 min, Tue 00:00-05:59 UTC (Mon 8 pm-1 am ET)
+    - cron: "*/15 0-5 * * 5"     # Thursday night game: every 15 min, Fri 00:00-05:59 UTC (Thu 8 pm-1 am ET)
+    - cron: "*/15 17-23 * 12,1 6" # Dec/Jan Saturday games (weeks 15-17): every 15 min, Sat 17:00-23:59 UTC
+    - cron: "*/15 0-5 * 12,1 0"  # Dec/Jan Saturday night games: every 15 min, Sun 00:00-05:59 UTC
+    - cron: "17 14 * * *"        # Every day at 14:17 UTC (about 9-10 am ET): stat corrections, off-season heartbeat
+    # Christmas / Black Friday / other special games: add a line, or just use "Run workflow".
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Run rule tests
+        run: python3 tests/test_rules.py
+
+      - name: Build leaderboard (sample or live, per config/season.json)
+        run: python3 src/build.py --out _site
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
